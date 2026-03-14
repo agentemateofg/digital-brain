@@ -1,0 +1,92 @@
+# tool_name: read_file
+# created_at: 2026-03-13T15:24:14.811145
+# ---
+# ✅ Checklist Rápido - Gestión Jerárquica de Contexto
+
+## 🎯 Antes de cada llamada al LLM
+
+---
+
+## NIVEL 1 - CRÍTICO (Obligatorio)
+
+```markdown
+[ ] Consulta actual del usuario
+[ ] Archivos directamente mencionados
+[ ] Error actual si existe
+```
+
+**Regla:** Si falta alguno → ❌ No ejecutar tarea
+
+---
+
+## NIVEL 2 - RELEVANTE (Opcional)
+
+```markdown
+[ ] Archivos relacionados (imports, dependencias)
+[ ] Contexto de conversación reciente (últimos 2-3 intercambios)
+```
+
+**Regla:** Incluir si aporta valor + hay espacio en contexto
+
+---
+
+## NIVEL 3 - ESPECÍFICO (Solo si aplica)
+
+```markdown
+[ ] Estructura completa del proyecto
+[ ] Historial extenso de conversación
+[ ] Documentación completa de dependencias
+```
+
+**Regla:** Solo incluir si es explícitamente necesario
+
+---
+
+## 🚨 REGLAS DE PRIORIZACIÓN
+
+### Caso A: NIVEL 1 + NIVEL 2 > max_input_length
+```
+✅ Mantener NIVEL 1 completo
+⚠️ Resumir NIVEL 2 a máximo 50%
+❌ Eliminar NIVEL 3
+```
+
+### Caso B: NIVEL 1 + NIVEL 2 + NIVEL 3 > max_input_length
+```
+✅ Mantener NIVEL 1 completo
+⚠️ Resumir NIVEL 2 a 30%
+❌ Eliminar NIVEL 3 por defecto
+```
+
+---
+
+## 📊 Resumen de Prioridades
+
+| Nivel | Prioridad | Siempre? | Espacio requerido |
+|-------|-----------|----------|-------------------|
+| **NIVEL 1** | 🔴 Crítico | ✅ Sí | Mínimo |
+| **NIVEL 2** | 🟡 Relevante | ⚠️ Opcional | Medio |
+| **NIVEL 3** | 🟢 Específico | ❌ Solo si aplica | Máximo |
+
+---
+
+## 💡 Ejemplos Rápidos
+
+### "Lee config.json"
+```
+N1: ✅ "Lee /Users/piter/.copaw/config.json"
+N2: ⚠️ (opcional) Contexto reciente sobre config.json
+N3: ❌ No incluir estructura completa
+```
+
+### "Analiza errores y arregla"
+```
+N1: ✅ Error actual + archivos mencionados
+N2: ✅ Archivos relacionados con imports
+N3: ⚠️ Estructura completa si es necesario
+```
+
+---
+
+**Última actualización**: 13 de marzo de 2026  
+**Estado**: ✅ Activo y en uso

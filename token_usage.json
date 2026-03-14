@@ -1,0 +1,38 @@
+{
+  "2026-03-12": {
+    "lmstudio:qwen/qwen3.5-9b": {
+      "provider_id": "lmstudio",
+      "model_name": "qwen/qwen3.5-9b",
+      "prompt_tokens": 178319,
+      "completion_tokens": 3090,
+      "call_count": 21
+    }
+  },
+  "2026-03-13": {
+    "lmstudio:qwen/qwen3.5-9b": {
+      "provider_id": "lmstudio",
+      "model_name": "qwen/qwen3.5-9b",
+      "prompt_tokens": 6541383,
+      "completion_tokens": 156049,
+      "call_count": 274
+    }
+  },
+  "2026-03-14": {
+    "lmstudio:qwen/qwen3.5-9b": {
+      "provider_id": "lmstudio",
+      "model_name": "qwen/qwen3.5-9b",
+      "prompt_tokens": 7876605,
+      "completion_tokens": 60581,
+      "call_count": 139
+    }
+  },
+  "2026-03-15": {
+    "lmstudio:qwen/qwen3.5-9b": {
+      "provider_id": "lmstudio",
+      "model_name": "qwen/qwen3.5-9b",
+      "prompt_tokens": 36003,
+      "completion_tokens": 506,
+      "call_count": 3
+    }
+  }
+}

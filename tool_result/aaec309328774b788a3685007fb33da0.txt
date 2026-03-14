@@ -1,0 +1,335 @@
+# tool_name: read_file
+# created_at: 2026-03-13T15:54:01.584431
+# ---
+# 🎯 Sistema Inteligente de Gestión de Tokens
+
+## 📋 Objetivo
+Optimizar interacciones sin comprometer capacidad de ejecución, análisis y desarrollo de código.
+
+---
+
+## 🔍 ANÁLISIS PRE-PROCESAMIENTO (Antes de cada llamada al LLM)
+
+### 1️⃣ Evaluar complejidad real de la tarea
+
+| Tipo de tarea | Tokens necesarios | Acción |
+|---------------|-------------------|--------|
+| **Consulta simple** (ej: "2+2") | <50 tokens | Respuesta directa, sin contexto histórico |
+| **Lectura archivo** (ej: "lee PDF") | 1-5k tokens | Solo contenido del archivo + instrucciones |
+| **Análisis de código** | 5-15k tokens | Código relevante + errores + contexto inmediato |
+| **Desarrollo complejo** | 10-20k tokens | Especificaciones + archivos relacionados + decisiones previas |
+
+### 2️⃣ Identificar archivos/contexto REALMENTE necesarios
+
+#### ✅ ESENCIAL (siempre incluir):
+- Archivos modificados en las últimas **2 horas**
+- Configuraciones relevantes (`config.json`, `MEMORY.md`)
+- Contexto de la tarea actual (qué se quiere lograr)
+- Errores recientes no resueltos
+
+#### ⚠️ OPCIONAL (comprimir si hay espacio):
+- Conversaciones antiguas (>24h) → resumir en 1 línea por tema
+- Logs de herramientas anteriores → solo resultados relevantes
+- Detalles técnicos no solicitados → omitir
+
+#### ❌ ELIMINAR:
+- Código muerto/comentado (`// ... resto igual`)
+- Errores ya resueltos (referencia al archivo solución)
+- Información duplicada en múltiples archivos
+- Logs de pensamiento (`<thinking>...</thinking>`) si `filter_thinking: true`
+
+### 3️⃣ Comprimir información redundante
+
+**Reglas de compresión:**
+
+```markdown
+✅ Conversación antigua (>24h):
+   "Usuario pidió X, se hizo Y, resultado Z" (1 línea)
+
+✅ Resultado de herramienta anterior:
+   "browser_use: https://marca.com → F1 China GP, Tennis Indian Wells"
+
+✅ Código repetido:
+   "// ... resto del código igual"
+
+✅ Errores resueltos:
+   "Error X resuelto en memory/2026-03-13.md"
+```
+
+### 4️⃣ Eliminar contenido no esencial
+
+**Checklist pre-procesamiento:**
+
+```markdown
+[ ] ¿La tarea requiere contexto histórico? → Sí/No
+[ ] ¿Hay archivos modificados en las últimas 2h? → Listar
+[ ] ¿Puedo resumir conversaciones antiguas? → Sí/No
+[ ] ¿Están los logs de pensamiento ocultos? → filter_thinking: true
+[ ] ¿El contexto total < max_input_length (131072)? → Verificar
+```
+
+---
+
+## 🛠️ CONFIGURACIÓN ACTUAL (Ya optimizada)
+
+En `/Users/piter/.copaw/config.json`:
+
+```json
+{
+  "agents": {
+    "running": {
+      "max_input_length": 131072,           // ✅ Límite de input
+      "memory_reserve_ratio": 0.1,          // ✅ Reserva ~819 tokens
+      "memory_compact_ratio": 0.75,         // ✅ Compresión agresiva
+      "enable_tool_result_compact": true,   // ✅ Compacta resultados
+      "tool_result_compact_keep_n": 5       // ✅ Mantiene últimos 5
+    }
+  },
+  "telegram": {
+    "filter_thinking": true                 // ✅ Oculta logs de pensamiento
+  }
+}
+```
+
+---
+
+## 📊 Métricas de Éxito
+
+| Métrica | Objetivo | Actual |
+|---------|----------|--------|
+| **Tokens usados por respuesta** | <10k | ✅ Monitorizar |
+| **Errores de contexto overflow** | 0 | ✅ Configurado |
+| **Tiempo de respuesta** | <30s | ✅ Optimizado |
+| **Precisión en tareas complejas** | >90% | ⚠️ Evaluar |
+
+---
+
+## 🎯 Flujo de Trabajo Recomendado
+
+### Para tareas simples:
+```
+1. Identificar tarea → Consulta simple
+2. No cargar contexto histórico
+3. Respuesta directa + referencia a archivos si aplica
+```
+
+### Para tareas complejas:
+```
+1. Leer archivos relevantes (últimas 2h)
+2. Resumir conversaciones antiguas (>24h)
+3. Eliminar logs no esenciales
+4. Verificar contexto < max_input_length
+5. Ejecutar tarea
+6. Guardar resultado en memory/YYYY-MM-DD.md
+```
+
+---
+
+## 📂 GESTIÓN DE CONTEXTO JERÁRQUICO
+
+### NIVEL 1 - Siempre incluir (crítico):
+- Consulta actual del usuario
+- Archivos directamente mencionados
+- Error actual si existe
+
+### NIVEL 2 - Incluir si relevante:
+- Archivos relacionados (imports, dependencias)
+- Contexto de conversación reciente (últimos 2-3 intercambios)
+
+### NIVEL 3 - Incluir solo si explícitamente necesario:
+- Estructura completa del proyecto
+- Historial extenso de conversación
+- Documentación completa de dependencias
+
+---
+
+## ✅ CHECKLIST POR NIVEL
+
+### Antes de cargar contexto:
+
+**NIVEL 1 (Crítico - Obligatorio):**
+```markdown
+[ ] ¿Tengo la consulta actual del usuario?
+[ ] ¿Están los archivos mencionados en el prompt?
+[ ] ¿Existe un error actual no resuelto?
+```
+
+**NIVEL 2 (Relevante - Opcional):**
+```markdown
+[ ] ¿Los archivos relacionados son necesarios para esta tarea?
+[ ] ¿El contexto de conversación reciente aporta valor?
+[ ] ¿Hay espacio suficiente en el contexto (< max_input_length)?
+```
+
+**NIVEL 3 (Específico - Solo si aplica):**
+```markdown
+[ ] ¿La estructura completa del proyecto es necesaria?
+[ ] ¿El historial extenso aporta información crítica?
+[ ] ¿La documentación de dependencias es requerida?
+```
+
+---
+
+## 🎯 REGLAS DE PRIORIZACIÓN
+
+### Si NIVEL 1 + NIVEL 2 > max_input_length:
+```markdown
+→ Mantener NIVEL 1 completo
+→ Resumir NIVEL 2 a máximo 50%
+→ Eliminar NIVEL 3
+```
+
+### Si NIVEL 1 + NIVEL 2 + NIVEL 3 > max_input_length:
+```markdown
+→ Mantener NIVEL 1 completo
+→ Resumir NIVEL 2 a 30%
+→ Eliminar NIVEL 3 por defecto
+```
+
+---
+
+## 💡 EJEMPLOS PRÁCTICOS
+
+### Ejemplo 1 - Tarea simple ("Lee este archivo"):
+```markdown
+NIVEL 1: "Lee /Users/piter/.copaw/config.json"
+NIVEL 2: (opcional) Contexto reciente sobre config.json
+NIVEL 3: ❌ No incluir estructura completa del proyecto
+```
+
+### Ejemplo 2 - Tarea compleja ("Analiza errores y arregla"):
+```markdown
+NIVEL 1: Error actual + archivos mencionados
+NIVEL 2: Archivos relacionados con imports
+NIVEL 3: Estructura completa si es necesario para entender dependencias
+```
+
+---
+
+## 📂 ESTRATEGIA DE LECTURA DE ARCHIVOS
+
+### 🚫 NO LEER ARCHIVOS "POR SI CASO"
+
+**Regla de oro:** Solo leer bajo demanda, según el tipo de tarea.
+
+---
+
+### 🎯 Tipos de Lectura Estratégica
+
+```python
+def read_strategic(file_path, task_type):
+    if task_type == "fix_error":
+        return read_error_context(file_path, lines=50)
+    elif task_type == "understand_function":
+        return read_function_only(file_path, function_name)
+    elif task_type == "add_feature":
+        return read_relevant_sections(file_path)
+    else:
+        return read_with_limit(file_path, max_lines=200)
+```
+
+---
+
+### 📋 Mapeo de Tipos de Lectura
+
+#### `"fix_error"` - Arreglar error
+```markdown
+→ Leer contexto del error (últimas 50 líneas donde falló)
+→ Incluir stack trace si existe
+→ Archivos relacionados con imports
+→ No leer archivo completo, solo zona del error
+```
+
+#### `"understand_function"` - Entender función
+```markdown
+→ Leer firma de función + docstring
+→ Leer implementación completa de la función
+→ Leer llamadas a esta función (imports/dependencias)
+→ No leer funciones no relacionadas
+```
+
+#### `"add_feature"` - Añadir feature
+```markdown
+→ Leer sección donde se añadirá la feature
+→ Leer tests existentes si aplica
+→ Leer configuración relevante
+→ No leer todo el archivo, solo zonas relevantes
+```
+
+#### `"read_with_limit"` - Lectura general
+```markdown
+→ Leer máximo 200 líneas desde el inicio
+→ O desde la última modificación (git blame)
+→ Solo si no hay tipo específico de lectura
+```
+
+---
+
+### 🎯 Priorización de Archivos
+
+#### PREFERIR LEER:
+1. ✅ Archivos modificados en las últimas **2h**
+2. ✅ Archivos mencionados en el error/stack trace
+3. ✅ Archivos con última modificación reciente (git)
+4. ✅ Archivos relacionados por imports/dependencias
+
+#### EVITAR LEER:
+1. ❌ Archivos no modificados desde hace >7 días
+2. ❌ Archivos de configuración estáticos (no relevantes)
+3. ❌ Archivos de documentación (a menos que se solicite explícitamente)
+
+---
+
+### 💾 Cache Inteligente
+
+```markdown
+SI archivo ya fue leído en las últimas 24h:
+   → Usar caché sin releer
+   → Validar si hay cambios (git diff o timestamp)
+   → Actualizar caché solo si hay modificaciones
+
+SI archivo es pequeño (<500 líneas):
+   → Leer completo (no vale la pena cachear)
+   
+SI archivo es grande (>2000 líneas):
+   → Usar estrategia específica (solo funciones relevantes)
+```
+
+---
+
+## 📝 Referencias
+
+- **Configuración**: `/Users/piter/.copaw/config.json`
+- **Memoria diaria**: `memory/YYYY-MM-DD.md`
+- **Memoria a largo plazo**: `MEMORY.md`
+- **Proyectos**: `memory/projects/`
+
+---
+
+**Última actualización**: 13 de marzo de 2026  
+**Estado**: ✅ Implementado y activo
+
+---
+
+## 📂 Archivos Creados/Actualizados
+
+| Archivo | Acción | Contenido |
+|---------|--------|-----------|
+| **TOKEN-OPTIMIZATION.md** | ✅ Actualizado | Secciones GESTIÓN DE CONTEXTO JERÁRQUICO + ESTRATEGIA DE LECTURA añadidas |
+| **CHECKLIST-CONTEXTO.md** | ✅ Creado | Checklist rápido de verificación por nivel |
+
+---
+
+## 🎯 Estado Final
+
+| Aspecto | Estado | Archivo |
+|---------|--------|---------|
+| **NIVEL 1 (Crítico)** | ✅ Implementado | TOKEN-OPTIMIZATION.md |
+| **NIVEL 2 (Relevante)** | ✅ Implementado | TOKEN-OPTIMIZATION.md |
+| **NIVEL 3 (Específico)** | ✅ Implementado | TOKEN-OPTIMIZATION.md |
+| **Checklist por nivel** | ✅ Implementado | CHECKLIST-CONTEXTO.md |
+| **Reglas de priorización** | ✅ Implementado | TOKEN-OPTIMIZATION.md |
+| **Ejemplos prácticos** | ✅ Implementado | TOKEN-OPTIMIZATION.md |
+| **Estrategia lectura archivos** | ✅ Implementado | TOKEN-OPTIMIZATION.md |
+
+

@@ -1,0 +1,25 @@
+{
+  "chats": [
+    {
+      "channel": "console",
+      "created_at": "2026-03-12T22:26:02.876057Z",
+      "id": "d93450de-f866-41b1-910a-97b394ec9d3b",
+      "meta": {},
+      "name": "hola\nhabla",
+      "session_id": "1773354362692",
+      "updated_at": "2026-03-12T22:51:01.082124Z",
+      "user_id": "default"
+    },
+    {
+      "channel": "telegram",
+      "created_at": "2026-03-12T22:52:34.860807Z",
+      "id": "dc4d66f3-9121-4f4a-ad55-9d593ecbff0b",
+      "meta": {},
+      "name": "/start",
+      "session_id": "telegram:1350110165",
+      "updated_at": "2026-03-14T22:57:51.417514Z",
+      "user_id": "1350110165"
+    }
+  ],
+  "version": 1
+}

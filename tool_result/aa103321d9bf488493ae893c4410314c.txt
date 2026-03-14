@@ -1,0 +1,29 @@
+# tool_name: read_file
+# created_at: 2026-03-14T13:39:33.378617
+# ---
+/Users/piter/.copaw/MEMORY.md  (lines 38-60 of 173)
+
+| Skill | Emoji | Purpose | Location |
+|-------|-------|---------|----------|
+| `xlsx` | 📊 | Spreadsheet operations (read/edit/create .xlsx, .csv, .tsv) | `/active_skills/xlsx/SKILL.md` |
+| `pdf` | 📄 | PDF manipulation (read/extract/merge/split/rotate/watermark) | `/active_skills/pdf/SKILL.md` |
+| `browser_visible` | 🌐 | Visible browser window for user interaction | `/active_skills/browser_visible/SKILL.md` |
+| `news` | 📰 | News lookup from specified sites with authoritative URLs | `/active_skills/news/SKILL.md` |
+| `pptx` | 📽️ | PowerPoint operations (create/edit/read .pptx files) | `/active_skills/pptx/SKILL.md` |
+| `file_reader` | 📂 | Read and summarize text-based file types | `/active_skills/file_reader/SKILL.md` |
+| `docx` | 📝 | Word document operations (create/edit/read .docx files) | `/active_skills/docx/SKILL.md` |
+| `cron` | ⏰ | Scheduled task management via copaw commands | `/active_skills/cron/SKILL.md` |
+| `skill-creator` | 🛠️ | Create new skills iteratively (design/evaluate/improve) | `/active_skills/skill-creator/SKILL.md` |
+
+##  Skill Creator Special
+
+La skill `skill-creator` es especial porque **ayuda a crear nuevas skills**. Úsala cuando quieras:
+- Definir una nueva funcionalidad para el agente
+- Escribir un SKILL.md desde cero
+- Crear casos de prueba y evaluar iterativamente
+- Organizar recursos empaquetados (scripts/, references/, assets/)
+
+**Flujo recomendado**:
+1. Capturar intención del usuario
+
+[113 more lines. Use start_line=61 to continue.]

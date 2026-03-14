@@ -1,0 +1,42 @@
+# tool_name: read_file
+# created_at: 2026-03-13T18:41:58.227435
+# ---
+/Users/piter/.copaw/scripts/cache_manager.py  (lines 85-120 of 308)
+        # Criterio 4: Tarea específica que requiere análisis completo
+        if task_context and task_context.get('requires_full_analysis'):
+            return True
+        
+        return False
+    
+    def load_cache_if_needed(self, cache_key: str) -> Optional[Dict]:
+        """
+        Cargar caché con validación de integridad.
+        
+        Args:
+            cache_key: Clave para acceder a la entrada de caché
+            
+        Returns:
+            Datos de caché o None si no existe/inválida
+        """
+        if not self.cache_file.exists():
+            return None
+        
+        try:
+            with open(self.cache_file, 'r') as f:
+                cached = json.load(f)
+            
+            # Validar integridad
+            if not validate_cache_integrity(cached.get(cache_key)):
+                print(f'⚠️ Caché {cache_key} inválida, recargando...')
+                return None
+            
+            # Verificar cambios en sistema de archivos
+            if check_filesystem_changes(cached[cache_key].get('last_modified')):
+                print('⚠️ Sistema de archivos cambiado, recargando caché...')
+                return None
+            
+            return cached[cache_key]
+        except (json.JSONDecodeError, KeyError):
+            return None
+
+[188 more lines. Use start_line=121 to continue.]

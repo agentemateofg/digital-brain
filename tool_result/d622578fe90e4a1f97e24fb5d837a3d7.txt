@@ -1,0 +1,126 @@
+# tool_name: read_file
+# created_at: 2026-03-14T14:51:55.126684
+# ---
+
+##  Skill Creator Special
+
+La skill `skill-creator` es especial porque **ayuda a crear nuevas skills**. Úsala cuando quieras:
+- Definir una nueva funcionalidad para el agente
+- Escribir un SKILL.md desde cero
+- Crear casos de prueba y evaluar iterativamente
+- Organizar recursos empaquetados (scripts/, references/, assets/)
+
+**Flujo recomendado**:
+1. Capturar intención del usuario
+2. Entrevistar sobre casos límite y formatos
+3. Escribir SKILL.md inicial
+4. Crear tests y ejecutar
+5. Evaluar feedback
+6. Iterar hasta satisfacción
+
+##  Adding New Skills
+
+Para añadir nuevas skills:
+1. Crear directorio en `/active_skills/<skill-name>/`
+2. Escribir `SKILL.md` con YAML frontmatter (name, description requeridos)
+3. Añadir instrucciones en markdown
+4. Opcional: recursos empaquetados (scripts/, references/, assets/)
+
+##  Best Practices
+
+- **Descripción específica**: Ser "empujón" para evitar subactivación
+- **Idioma español**: Todo el contenido en español
+- **Formatos definidos**: Especificar estructuras exactas para outputs verificables
+- **Carga progresiva**: Metadata → SKILL.md body → recursos empaquetados
+- **Principio de sorpresa cero**: Sin malware ni contenido malicioso
+
+##  🎯 Protocolo de Ahorro de Tokens (PAT) - Obligatorio
+
+Aplica en TODAS las respuestas:
+
+| Regla | Acción | Ejemplo |
+|-------|--------|---------|
+| **Prohibido Chatter** | Elimina frases innecesarias/introducciones | ❌ "Claro, aquí tienes..." → ✅ Directo al grano |
+| **Densidad de Información** | Usa listas (-) y tablas; evita párrafos | `- Item 1` > `Item 1 es importante...` |
+| **Caché de Código** | Solo bloques modificados (diff), no archivos completos | `// ... resto del código igual` |
+| **Resumen de Acción** | Termina con 1 línea en negrita | **Estado: Componente X refactorizado** |
+| **Referencia por Punteros** | memory/archivo.md sin resúmenes | Referencia: memory/MEMORY.md |
+
+**Objetivo**: Reducir tokens de salida al máximo sin perder precisión técnica.
+
+**Confirmación**: PAT Activo - Respuestas optimizadas desde ahora.
+
+---
+
+## 🎯 Sistema Inteligente de Gestión de Tokens (Implementado 13/03/2026)
+
+##  ✅ Instrucciones Implementadas
+
+| # | Instrucción | Estado | Archivo Principal |
+|---|-------------|--------|-------------------|
+| **1** | **Análisis Pre-Procesamiento** | ✅ Activo | `memory/TOKEN-OPTIMIZATION.md` |
+| **2** | **Gestión Jerárquica de Contexto (NIVEL 1/2/3)** | ✅ Activo | `memory/TOKEN-OPTIMIZATION.md` |
+| **3** | **Estrategia de Lectura de Archivos** | ✅ Activo | `memory/TOKEN-OPTIMIZATION.md` |
+| **4** | **Compresión Inteligente de Código** | ✅ Activo | `memory/TOKEN-OPTIMIZATION.md` |
+| **5** | **Caché y Reutilización (Opción C)** | ✅ Activo | `scripts/cache_manager.py` |
+
+---
+
+##  📂 Archivos Creados/Actualizados
+
+| Archivo | Acción | Tamaño | Contenido |
+|---------|--------|--------|-----------|
+| **TOKEN-OPTIMIZATION.md** | ✅ Actualizado | +4.1KB | Todas las instrucciones 1-5 + checklist + reglas |
+| **CHECKLIST-CONTEXTO.md** | ✅ Creado | 2.8KB | Checklist rápido por nivel de contexto |
+| **GUIDA-LECTURA-ARCHIVOS.md** | ✅ Creado | 6.1KB | Guía práctica con ejemplos detallados |
+| **cache_manager.py** | ✅ Actualizado | 10.7KB | Implementación completa en Python + detección primera sesión |
+| **CACHE-USAGE-GUIDE.md** | ✅ Creado | 6.5KB | Guía de uso del sistema de caché |
+
+---
+
+##  🎯 Configuración Actual (config.json)
+
+```json
+{
+  "agents": {
+    "running": {
+      "max_input_length": 131072,           // ✅ Límite de input
+      "memory_reserve_ratio": 0.1,          // ✅ Reserva ~819 tokens
+      "memory_compact_ratio": 0.75,         // ✅ Compresión agresiva
+      "enable_tool_result_compact": true    // ✅ Compacta resultados
+    }
+  },
+  "telegram": {
+    "filter_thinking": true                 // ✅ Oculta logs de pensamiento
+  }
+}
+```
+
+---
+
+##  📊 Métricas de Éxito
+
+| Métrica | Objetivo | Estado |
+|---------|----------|--------|
+| **Tokens usados por respuesta** | <10k | ✅ Monitorizar |
+| **Errores de contexto overflow** | 0 | ✅ Configurado |
+| **Tiempo de respuesta** | <30s | ✅ Optimizado |
+| **Ahorro tokens lectura archivos** | ~70% | ✅ Implementado |
+| **Cache hit rate** | >50% | ⚠️ Monitorizar |
+
+---
+
+##  📚 Referencias Rápidas
+
+- **Documentación completa**: `memory/TOKEN-OPTIMIZATION.md`
+- **Checklist de contexto**: `memory/CHECKLIST-CONTEXTO.md`
+- **Guía lectura archivos**: `memory/GUIDA-LECTURA-ARCHIVOS.md`
+- **Implementación caché**: `scripts/cache_manager.py`
+- **Guía uso caché**: `memory/CACHE-USAGE-GUIDE.md`
+- **Configuración activa**: `/Users/piter/.copaw/config.json`
+
+---
+
+**Última actualización del sistema**: 13 de marzo de 2026
+**Estado**: ✅ Sistema completo implementado y activo con mejoras
+

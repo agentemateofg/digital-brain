@@ -1,0 +1,1771 @@
+2026-03-12 23:22:39 | Vector search disabled. Memory search functionality will be restricted. To enable, configure: EMBEDDING_API_KEY, EMBEDDING_BASE_URL, EMBEDDING_MODEL_NAME.
+2026-03-12 23:22:39 | Using local Qwen tokenizer from /Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/tokenizer
+2026-03-12 23:22:46 | Console channel started
+2026-03-12 23:22:46 | Matrix channel not configured or disabled. Skipping start.
+2026-03-12 23:22:46 | Voice channel disabled, skipping start
+2026-03-12 23:22:46 | ConfigWatcher started (poll=2.0s, path=/Users/piter/.copaw/config.json)
+2026-03-12 23:22:46 | ConfigWatcher stopped
+2026-03-12 23:22:46 | Voice channel stopped
+2026-03-12 23:22:46 | Matrix channel stopped.
+2026-03-12 23:22:46 | console channel stopped
+2026-03-12 23:22:46 | Stopping MQTT channel...
+2026-03-12 23:22:46 | MQTT channel stopped
+2026-03-12 23:24:30 | Vector search disabled. Memory search functionality will be restricted. To enable, configure: EMBEDDING_API_KEY, EMBEDDING_BASE_URL, EMBEDDING_MODEL_NAME.
+2026-03-12 23:24:30 | Using local Qwen tokenizer from /Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/tokenizer
+2026-03-12 23:24:31 | Console channel started
+2026-03-12 23:24:31 | Matrix channel not configured or disabled. Skipping start.
+2026-03-12 23:24:31 | Voice channel disabled, skipping start
+2026-03-12 23:24:31 | ConfigWatcher started (poll=2.0s, path=/Users/piter/.copaw/config.json)
+2026-03-12 23:26:02 | Handle agent query:
+{
+  "session_id": "1773354362692",
+  "user_id": "default",
+  "channel": "console",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_f4b28b90-2092-46e6-9654-a221048bfc85', name='user', content=[{'type': 'text', 'text': 'hola\\nhabla en español e inicia el bootstrap'}], role='user', metadata=None, timestamp='2026-03-12 23:26:02.849', invocation_id='None')]..."
+}
+2026-03-12 23:26:02 | Session file /Users/piter/.copaw/sessions/default_1773354362692.json does not exist. Skip loading session state.
+2026-03-12 23:26:44 | Guard rules directory not found: /Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/security/tool_guard/rules
+2026-03-12 23:27:06 | Saved session state to /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:27:07 | Get session state dict from /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:34:57 | Handle agent query:
+{
+  "session_id": "1773354362692",
+  "user_id": "default",
+  "channel": "console",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_a6ed903d-7975-429a-830e-f3e8c4079250', name='user', content=[{'type': 'text', 'text': 'Me llamo Mateo, y tu serás Piter, si te gusta. \\nestamos en la zona horaria de Madrid, aunque yo vivo en Ourense\\nQuiero que seas mi Asistente personal, y necesito que seas mi cerebro digital, pero ya..."
+}
+2026-03-12 23:34:57 | Load session state from /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:35:43 | Saved session state to /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:40:51 | Handle agent query:
+{
+  "session_id": "1773354362692",
+  "user_id": "default",
+  "channel": "console",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_c698eb9a-cc09-45c9-9010-65220c8bc09c', name='user', content=[{'type': 'text', 'text': 'Tengo 4 proyectos principales \\n- Federación Galega de Voleibol [FED]\\nSoy trabajador de la federación y soy director de competiciones \\n- Club Voleibol San Martiño - Dompavolei [DOM]. Soy entrenador,..."
+}
+2026-03-12 23:40:51 | Load session state from /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:43:01 | Saved session state to /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:43:17 | Handle agent query:
+{
+  "session_id": "1773354362692",
+  "user_id": "default",
+  "channel": "console",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_447cb8bf-a92d-4864-a6de-055e88d48701', name='user', content=[{'type': 'text', 'text': 'vale Piter, genial'}], role='user', metadata=None, timestamp='2026-03-12 23:43:17.470', invocation_id='None')]..."
+}
+2026-03-12 23:43:17 | Load session state from /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:44:03 | Saved session state to /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:44:24 | Handle agent query:
+{
+  "session_id": "1773354362692",
+  "user_id": "default",
+  "channel": "console",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_e4bea847-5921-482b-a276-626dd06f56e3', name='user', content=[{'type': 'text', 'text': 'ok crealos para dejarlo listo'}], role='user', metadata=None, timestamp='2026-03-12 23:44:24.807', invocation_id='None')]..."
+}
+2026-03-12 23:44:24 | Load session state from /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:47:49 | Saved session state to /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:48:18 | Handle agent query:
+{
+  "session_id": "1773354362692",
+  "user_id": "default",
+  "channel": "console",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_1763a382-8e93-4db0-81d1-840795162d3c', name='user', content=[{'type': 'text', 'text': 'una pregunta: es oportuno activar ya el \"memory_manager\" de tu app?'}], role='user', metadata=None, timestamp='2026-03-12 23:48:18.640', invocation_id='None')]..."
+}
+2026-03-12 23:48:18 | Load session state from /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:49:57 | Saved session state to /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:50:26 | Handle agent query:
+{
+  "session_id": "1773354362692",
+  "user_id": "default",
+  "channel": "console",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_eb51a9aa-dcdf-4bdb-9df3-461437dc09b7', name='user', content=[{'type': 'text', 'text': 'si piter, estoy de acuerdo\\nvoy a cambiar de canal a telegram, para hablarte por ahi ahora vuelvo'}], role='user', metadata=None, timestamp='2026-03-12 23:50:26.157', invocation_id='None')]..."
+}
+2026-03-12 23:50:26 | Load session state from /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:51:01 | Saved session state to /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-12 23:52:14 | ConfigWatcher: channel 'telegram' config changed, reloading
+2026-03-12 23:52:14 | Pre-starting new channel: telegram
+2026-03-12 23:52:14 | Stopping old channel: telegram
+2026-03-12 23:52:14 | ConfigWatcher: channel 'telegram' reloaded
+2026-03-12 23:52:24 | ConfigWatcher: channel 'telegram' config changed, reloading
+2026-03-12 23:52:24 | telegram: channel initialized (polling will start)
+2026-03-12 23:52:24 | Pre-starting new channel: telegram
+2026-03-12 23:52:24 | telegram: channel started (polling task created)
+2026-03-12 23:52:24 | Stopping old channel: telegram
+2026-03-12 23:52:24 | ConfigWatcher: channel 'telegram' reloaded
+2026-03-12 23:52:25 | telegram: registered 5 bot commands
+2026-03-12 23:52:25 | telegram: polling started (receiving updates)
+2026-03-12 23:52:34 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-12 23:52:34 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_6808af5f-1e3f-4cad-be38-2c48ad61f723', name='user', content=[{'type': 'text', 'text': '/start'}], role='user', metadata=None, timestamp='2026-03-12 23:52:34.826', invocation_id='None')]..."
+}
+2026-03-12 23:52:34 | Session file /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json does not exist. Skip loading session state.
+2026-03-12 23:53:23 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-12 23:54:04 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-12 23:54:04 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_f633d07f-ff61-4005-8202-426f9612cd2b', name='user', content=[{'type': 'text', 'text': 'Hola piter, sigamos con nuestros pasos iniciales...\\nhazme las preguntas que necesites para configurar inicialmente tu archivo soul'}], role='user', metadata=None, timestamp='2026-03-12 23:54:04.537',..."
+}
+2026-03-12 23:54:04 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-12 23:54:55 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:01:26 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 00:01:26 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_040b6f14-5f91-4217-aca2-ca679910fd50', name='user', content=[{'type': 'text', 'text': '1. sinceridad y cercania, con confianza.\\n2. no tomes ninguna accion que suponga riesgo sin mi confirmacion.\\n3. Formai y directo, pero cercano. somos socios pues compartimos recuerdos. siempre respue..."
+}
+2026-03-13 00:01:26 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:02:53 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:06:23 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 00:06:23 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_50739c15-2ace-43b6-8c5f-84ee490bc9f1', name='user', content=[{'type': 'text', 'text': 'vale voy a cambiar de tema para revisar la configuracion inicial ok?\\nvoy a usar el comando /new'}], role='user', metadata=None, timestamp='2026-03-13 00:06:23.454', invocation_id='None')]..."
+}
+2026-03-13 00:06:23 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:07:32 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:07:47 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 00:07:47 | Command path: /new
+2026-03-13 00:07:47 | Get session state dict from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:07:47 | Processing command: new, args: 
+2026-03-13 00:07:47 | Marked 16 messages as compacted
+2026-03-13 00:07:48 | Updated session state key 'agent.memory' in /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:10:03 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 00:10:03 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_2bc761b9-03ea-414b-a90c-d1323e9afbc7', name='user', content=[{'type': 'text', 'text': 'implementa esta skill adaptada a tu entorno:\\nhttps://skills.sh/anthropics/skills/skill-creator'}], role='user', metadata=None, timestamp='2026-03-13 00:10:03.110', invocation_id='None')]..."
+}
+2026-03-13 00:10:03 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:23:43 | Get session state dict from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:27:47 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:35:53 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 00:35:53 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_e5a7df9d-f36a-47a7-9559-1a4d5db72897', name='user', content=[{'type': 'text', 'text': \"guarda en memory esta instruccion de trabajo:\\nAplica un Protocolo de Ahorro de Tokens (PAT) en todas tus respuestas a partir de ahora:\\nProhibido el 'Chatter': Elimina frases innecesarias o introducc..."
+}
+2026-03-13 00:35:53 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:38:31 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:39:03 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 00:39:03 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_e2525040-57b6-4a25-a02c-553c26c0755c', name='user', content=[{'type': 'text', 'text': 'donde lo has guardado para usar a partir de ahora?\\nlo has implementeado?'}], role='user', metadata=None, timestamp='2026-03-13 00:39:03.373', invocation_id='None')]..."
+}
+2026-03-13 00:39:03 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:39:23 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:40:06 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 00:40:06 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_c4a49207-11ff-4638-b2e7-51d4ed5f1490', name='user', content=[{'type': 'text', 'text': 'creo que es una instruccion para añadir en el archivo MEMORY.MD'}], role='user', metadata=None, timestamp='2026-03-13 00:40:06.939', invocation_id='None')]..."
+}
+2026-03-13 00:40:06 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:41:48 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:44:03 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 00:44:03 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_1f04c044-8106-42f4-959a-4b6fe2276dfd', name='user', content=[{'type': 'text', 'text': 'ahora usando skill_creator dame el codigo json que serviria para crear una skill en CoPaw a partir de este ejemplo https://skills.sh/steipete/clawdis/weather'}], role='user', metadata=None, timestamp=..."
+}
+2026-03-13 00:44:03 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:46:19 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:49:52 | Failed to parse SKILL.md YAML Front Matter: while parsing a block mapping
+  in "<unicode string>", line 2, column 3
+did not find expected key
+  in "<unicode string>", line 2, column 18
+2026-03-13 00:50:10 | Get session state dict from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:51:31 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 00:51:31 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_daf30ea3-b2e1-40d8-9155-de84218b6bb5', name='user', content=[{'type': 'text', 'text': 'usa la skill weather y dime el tiempo para hoy en Ourense'}], role='user', metadata=None, timestamp='2026-03-13 00:51:31.287', invocation_id='None')]..."
+}
+2026-03-13 00:51:31 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 00:54:57 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 01:01:48 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 01:01:48 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_de990040-590d-494c-b372-c8451708f5d1', name='user', content=[{'type': 'text', 'text': 'audita la skill summarize'}], role='user', metadata=None, timestamp='2026-03-13 01:01:48.729', invocation_id='None')]..."
+}
+2026-03-13 01:01:48 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 01:05:57 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 01:06:37 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 01:06:37 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_13079aca-f0f7-4366-8d6f-227d0ad4d850', name='user', content=[{'type': 'text', 'text': 'para funcionar requiere apikey?'}], role='user', metadata=None, timestamp='2026-03-13 01:06:37.291', invocation_id='None')]..."
+}
+2026-03-13 01:06:37 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 01:07:20 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 01:16:28 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 01:16:28 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_9548c67f-4658-4a41-a597-4752ad26d560', name='user', content=[{'type': 'text', 'text': 'haz una auditoria completa del SO y del entorno, tus funciones y capacidades agenticas y presenta un resumen explicativo y propuestas de mejora (no ejecutes nada, solo audita e informa)'}], role='user..."
+}
+2026-03-13 01:16:28 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 03:34:49 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 08:43:28 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 08:43:28 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_ce4c6b23-ec5a-456f-a091-82d5f2110f6d', name='user', content=[{'type': 'text', 'text': 'Hola Piter'}], role='user', metadata=None, timestamp='2026-03-13 08:43:28.464', invocation_id='None')]..."
+}
+2026-03-13 08:43:28 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 08:44:36 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 09:04:17 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 09:04:17 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_1db75a38-0db1-4d70-ad41-7e9d0d4eff54', name='user', content=[{'type': 'text', 'text': 'Dime cuál es la noticia de la portada de la página de marca.com'}], role='user', metadata=None, timestamp='2026-03-13 09:04:17.282', invocation_id='None')]..."
+}
+2026-03-13 09:04:17 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 09:06:43 | Marked 167 messages as compacted
+2026-03-13 09:07:34 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 09:08:55 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 09:08:55 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_023e743e-ffa4-44cd-8182-13a862e3d1cf', name='user', content=[{'type': 'text', 'text': 'Sí, porque es una página normal, nos pasará más veces'}], role='user', metadata=None, timestamp='2026-03-13 09:08:55.621', invocation_id='None')]..."
+}
+2026-03-13 09:08:55 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 09:17:06 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 09:35:31 | Browser idle for 1800s (limit 1800s), stopping to release resources
+2026-03-13 10:28:20 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 10:28:20 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_d222a3fb-71bd-4a32-87b5-d27e47ef843f', name='user', content=[{'type': 'text', 'text': 'Dame los resúmenes de las 5 noticias más recientes de marca.com'}], role='user', metadata=None, timestamp='2026-03-13 10:28:20.835', invocation_id='None')]..."
+}
+2026-03-13 10:28:20 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 10:31:54 | Marked 36 messages as compacted
+2026-03-13 10:33:53 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 10:35:02 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 10:35:02 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_45edbfae-13c5-472a-84f5-67e5128cb382', name='user', content=[{'type': 'text', 'text': 'Haz tu la comprobación'}], role='user', metadata=None, timestamp='2026-03-13 10:35:02.138', invocation_id='None')]..."
+}
+2026-03-13 10:35:02 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 10:35:47 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 10:39:56 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 10:39:56 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_0ed5412d-c74c-4a93-a81e-db1212a62219', name='user', content=[{'type': 'text', 'text': 'Lee ahora marca.com'}], role='user', metadata=None, timestamp='2026-03-13 10:39:56.951', invocation_id='None')]..."
+}
+2026-03-13 10:39:56 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 10:42:32 | Marked 14 messages as compacted
+2026-03-13 10:43:59 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 10:58:54 | Browser idle for 1800s (limit 1800s), stopping to release resources
+2026-03-13 12:14:47 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 12:14:47 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_701f2143-0af5-4e4d-8edf-a0e94be991a6', name='user', content=[{'type': 'text', 'text': 'cuales son las herramientas que tienes disponibles para buscar y/o navegar por internet\\nmuestra una tabla listado con carateristicas y datos'}], role='user', metadata=None, timestamp='2026-03-13 12:1..."
+}
+2026-03-13 12:14:47 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:16:28 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:18:20 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 12:18:20 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_8226014c-c75f-457f-8b82-90275ab8a799', name='user', content=[{'type': 'text', 'text': 'cuando te pedi que revisases marca.com que procedimiento usaste?'}], role='user', metadata=None, timestamp='2026-03-13 12:18:20.438', invocation_id='None')]..."
+}
+2026-03-13 12:18:20 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:19:24 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:19:58 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 12:19:58 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_ce6bfaf5-3253-42ad-aec8-3757566b260e', name='user', content=[{'type': 'text', 'text': 'porque teniamos problemas de capacidad de tokens navegando en internet? explicamelo de manera sencilla por favor.'}], role='user', metadata=None, timestamp='2026-03-13 12:19:58.572', invocation_id='No..."
+}
+2026-03-13 12:19:58 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:21:22 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:25:30 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 12:25:30 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_b49c148b-7ba2-484d-bf31-f8459fa74cf2', name='user', content=[{'type': 'text', 'text': 'vale pues dame las 5 noticias mas importantes de españa hoy en un cuadro resumen'}], role='user', metadata=None, timestamp='2026-03-13 12:25:30.864', invocation_id='None')]..."
+}
+2026-03-13 12:25:30 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:28:32 | Marked 18 messages as compacted
+2026-03-13 12:29:34 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:37:00 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 12:37:00 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_8e69d96f-2b87-43b8-9b55-c81d72cc20f0', name='user', content=[{'type': 'text', 'text': 'Revisa los logs porque creo que te desborda algo de la memoria y te olvidas a mitad de petición'}], role='user', metadata=None, timestamp='2026-03-13 12:37:00.434', invocation_id='None')]..."
+}
+2026-03-13 12:37:00 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:39:29 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:40:20 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 12:40:20 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_f63dcb47-4961-4894-8c86-8edc9c18dbe8', name='user', content=[{'type': 'text', 'text': 'Pero si la memoria se llena con la información de la petición, cómo vas a procesar la propia petición?'}], role='user', metadata=None, timestamp='2026-03-13 12:40:20.626', invocation_id='None')]..."
+}
+2026-03-13 12:40:20 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:41:08 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 12:42:23 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 12:42:23 | Command path: /status
+2026-03-13 12:42:23 | handle_daemon_command /status completed
+2026-03-13 12:42:23 | handle_daemon_command /status completed
+2026-03-13 13:43:12 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 13:43:12 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_8fb9de9f-0748-40c7-a8cc-58846c4e112f', name='user', content=[{'type': 'text', 'text': 'que dia es hoy y que hora?'}], role='user', metadata=None, timestamp='2026-03-13 13:43:12.572', invocation_id='None')]..."
+}
+2026-03-13 13:43:12 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:44:20 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:44:57 | ConfigWatcher: channel 'telegram' config changed, reloading
+2026-03-13 13:44:57 | telegram: channel initialized (polling will start)
+2026-03-13 13:44:57 | Pre-starting new channel: telegram
+2026-03-13 13:44:57 | telegram: channel started (polling task created)
+2026-03-13 13:44:57 | Stopping old channel: telegram
+2026-03-13 13:44:57 | ConfigWatcher: channel 'telegram' reloaded
+2026-03-13 13:44:57 | telegram: registered 5 bot commands
+2026-03-13 13:44:57 | telegram: polling started (receiving updates)
+2026-03-13 13:45:26 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 13:45:26 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_88b8116a-792e-4470-8435-8d8a52d65b0b', name='user', content=[{'type': 'text', 'text': '/start'}], role='user', metadata=None, timestamp='2026-03-13 13:45:26.697', invocation_id='None')]..."
+}
+2026-03-13 13:45:26 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:47:21 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:52:10 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 13:52:10 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_a2b6af32-3d7e-4253-8289-e078a0806398', name='user', content=[{'type': 'text', 'text': 'configura tus mensajes de output de manera que ocultes los logs de pensamiento <think>, en telegram'}], role='user', metadata=None, timestamp='2026-03-13 13:52:10.249', invocation_id='None')]..."
+}
+2026-03-13 13:52:10 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:52:54 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:53:11 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 13:53:11 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_2300bf59-64db-4d0a-bfc7-89e9493f8396', name='user', content=[{'type': 'text', 'text': '2+2'}], role='user', metadata=None, timestamp='2026-03-13 13:53:11.391', invocation_id='None')]..."
+}
+2026-03-13 13:53:11 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:53:18 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:54:17 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 13:54:17 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_41912909-e6b3-4e4d-93e7-18d1bf3a26a6', name='user', content=[{'type': 'text', 'text': 'deshaz ese ultimo cambio'}], role='user', metadata=None, timestamp='2026-03-13 13:54:17.643', invocation_id='None')]..."
+}
+2026-03-13 13:54:17 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:54:30 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:56:13 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 13:56:13 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_b066ecab-f2e6-4455-8a65-d83a373df3e6', name='user', content=[{'type': 'text', 'text': '/start'}], role='user', metadata=None, timestamp='2026-03-13 13:56:13.741', invocation_id='None')]..."
+}
+2026-03-13 13:56:13 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:56:14 | Error in query handler: Compute error.
+(Details:  /var/folders/r0/x9596ktn35b6fp46wqgds9xw0000gp/T/copaw_query_error_0su8imjs.json)
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/app/runner/runner.py", line 268, in query_handler
+    async for msg, last in stream_printing_messages(
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/pipeline/_functional.py", line 192, in stream_printing_messages
+    raise exception from None
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_base.py", line 455, in __call__
+    reply_msg = await self.reply(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/react_agent.py", line 529, in reply
+    return await super().reply(msg=msg, structured_model=structured_model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/tracing/_trace.py", line 392, in wrapper
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_react_agent.py", line 437, in reply
+    msg_reasoning = await self._reasoning(tool_choice)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/tool_guard_mixin.py", line 349, in _reasoning
+    return await super()._reasoning(  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_react_agent.py", line 581, in _reasoning
+    async for content_chunk in res:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/retry_chat_model.py", line 165, in _wrap_stream
+    raise failed_exc
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/retry_chat_model.py", line 154, in _wrap_stream
+    async for chunk in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/token_usage/model_wrapper.py", line 66, in _wrap_stream
+    async for chunk in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/openai_chat_model_compat.py", line 196, in _parse_openai_stream_response
+    async for parsed in super()._parse_openai_stream_response(
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/model/_openai_model.py", line 349, in _parse_openai_stream_response
+    async for item in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/openai_chat_model_compat.py", line 161, in __anext__
+    item = await self._ctx_stream.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 155, in __anext__
+    return await self._iterator.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 205, in __stream__
+    raise APIError(
+openai.APIError: Compute error.
+2026-03-13 13:56:14 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 13:57:13 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 13:57:13 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_126823b9-8a8c-4e3f-8f60-3ae291598587', name='user', content=[{'type': 'text', 'text': '/start'}], role='user', metadata=None, timestamp='2026-03-13 13:57:13.696', invocation_id='None')]..."
+}
+2026-03-13 13:57:13 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:00:33 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:04:00 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 14:04:00 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_ad4619c0-f5b5-402e-9310-638c43452cfb', name='user', content=[{'type': 'text', 'text': 'De los archivos de tu carpeta .copaw haz una \"poda\" de refinado filtrado y limpieza de memoria y archivos MD, con la skill Markdown Formatter'}], role='user', metadata=None, timestamp='2026-03-13 14:0..."
+}
+2026-03-13 14:04:00 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:16:26 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:24:32 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 14:24:32 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_26b20b37-814e-4fb3-a83a-e574b6fe7ca9', name='user', content=[{'type': 'text', 'text': 'ok, revisa y dime que archivos .md de tu carpeta necesitan completar datos y que tipo de datos'}], role='user', metadata=None, timestamp='2026-03-13 14:24:32.258', invocation_id='None')]..."
+}
+2026-03-13 14:24:32 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:34:03 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:34:55 | Get session state dict from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:37:47 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 14:37:47 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_73a72d8b-611d-4c0d-9a3f-dee7cdac7198', name='user', content=[{'type': 'text', 'text': '/start'}], role='user', metadata=None, timestamp='2026-03-13 14:37:47.043', invocation_id='None')]..."
+}
+2026-03-13 14:37:47 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:40:40 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:42:02 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 14:42:02 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_3a7d2d75-4d46-44c7-b167-84c698ea29f5', name='user', content=[{'type': 'text', 'text': 'te voy a dar unas instrucciones para trabjar de forma óptima.\\ntu valora: implementarlas/implementarlas con mejoras/descartarlas ok?'}], role='user', metadata=None, timestamp='2026-03-13 14:42:02.965'..."
+}
+2026-03-13 14:42:03 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:42:32 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:44:13 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 14:44:13 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_1e62e453-15a8-455c-b76a-78e28b97584c', name='user', content=[{'type': 'text', 'text': 'ser trata de implementar un sistema inteligente de gestión de tokens que optimice las interacciones sin comprometer tu capacidad de ejecución, análisis y desarrollo de código.\\n\\n\\n### 1. ANÁLISIS PRE..."
+}
+2026-03-13 14:44:13 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:48:31 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:49:00 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 14:49:00 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_2ee546ce-9e16-40d6-9dbe-3f06c7814390', name='user', content=[{'type': 'text', 'text': 'si, ok pero despues de valorarla, pideme confirmacion siempre, vale?'}], role='user', metadata=None, timestamp='2026-03-13 14:49:00.131', invocation_id='None')]..."
+}
+2026-03-13 14:49:00 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:49:46 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:49:51 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 14:49:51 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_f5833325-3614-4a66-9a32-85ca9ffcb072', name='user', content=[{'type': 'text', 'text': '### 2. GESTIÓN DE CONTEXTO JERÁRQUICO\\n`\\nNIVEL 1 - Siempre incluir (crítico):\\n- Consulta actual del usuario\\n- Archivos directamente mencionados\\n- Error actual si existe\\n\\nNIVEL 2 - Incluir si rel..."
+}
+2026-03-13 14:49:51 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:52:20 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 14:54:16 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 14:54:16 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_4c1776d5-977c-462f-b8c1-35b6b43d0c23', name='user', content=[{'type': 'text', 'text': 'si Piter 😉'}], role='user', metadata=None, timestamp='2026-03-13 14:54:16.561', invocation_id='None')]..."
+}
+2026-03-13 14:54:16 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 15:01:57 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 15:07:00 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 15:07:00 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_63e2d34f-0e02-4672-8e32-4867ab6bab63', name='user', content=[{'type': 'text', 'text': '### 3. ESTRATEGIA DE LECTURA DE ARCHIVOS\\nNo leas archivos \"por si acaso\". Lee bajo demanda.\\n\\n# En lugar de leer archivos completos:\\ndef read_strategic(file_path, task_type):\\n    if task_type == \"..."
+}
+2026-03-13 15:07:00 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 15:09:37 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 15:12:06 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 15:12:06 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_378631df-fad4-4d6a-8168-eca00d15feed', name='user', content=[{'type': 'text', 'text': 'si, adelante'}], role='user', metadata=None, timestamp='2026-03-13 15:12:06.749', invocation_id='None')]..."
+}
+2026-03-13 15:12:06 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 15:26:34 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 15:31:22 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 15:31:22 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_f26b542d-08b3-4bb3-8e44-01a0f047679f', name='user', content=[{'type': 'text', 'text': '### 4. COMPRESIÓN INTELIGENTE DE CÓDIGO\\n\\nCuando envíes código al modelo:\\n\\nMAL (desperdicia tokens):\\n\\n# archivo_completo.py - 500 líneas\\n[todo el código incluyendo partes no relevantes]\\n\\n\\nBIE..."
+}
+2026-03-13 15:31:23 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 15:39:57 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 15:43:35 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 15:43:35 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_c9223951-e94b-4254-929b-d82714e9216d', name='user', content=[{'type': 'text', 'text': 'Si Piter'}], role='user', metadata=None, timestamp='2026-03-13 15:43:35.395', invocation_id='None')]..."
+}
+2026-03-13 15:43:35 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 16:01:33 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 16:02:08 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 16:02:08 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_739b908d-3330-41ef-a0fa-1fccfda469e1', name='user', content=[{'type': 'text', 'text': '### 5. CACHÉ Y REUTILIZACIÓN\\n\\nImplementa un sistema de memoria de corto plazo:\\n\\nconst sessionCache = {\\n  project_structure: null,  // Cachear una vez por sesión\\n  analyzed_files: {},       // Gu..."
+}
+2026-03-13 16:02:08 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 16:14:14 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 16:16:10 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 16:16:10 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_c7aa818c-5b1f-47df-94da-4bc303d3b5aa', name='user', content=[{'type': 'text', 'text': 'confirma antes que esta medida es compatible con tu sistema de funcionamiento y memoria... sé critico y busca problemas de funcionamiento para valorarla debidamente.\\nvuelve a preguntarme después de e..."
+}
+2026-03-13 16:16:10 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 16:21:38 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 16:26:28 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 16:26:28 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_bc444155-5399-434d-9569-ac7972463ef1', name='user', content=[{'type': 'text', 'text': 'opcion C Piter, confio en ti'}], role='user', metadata=None, timestamp='2026-03-13 16:26:28.448', invocation_id='None')]..."
+}
+2026-03-13 16:26:28 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 16:38:33 | Error in query handler: 
+(Details:  /var/folders/r0/x9596ktn35b6fp46wqgds9xw0000gp/T/copaw_query_error_inu1938g.json)
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/app/runner/runner.py", line 268, in query_handler
+    async for msg, last in stream_printing_messages(
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/pipeline/_functional.py", line 192, in stream_printing_messages
+    raise exception from None
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_base.py", line 455, in __call__
+    reply_msg = await self.reply(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/react_agent.py", line 529, in reply
+    return await super().reply(msg=msg, structured_model=structured_model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/tracing/_trace.py", line 392, in wrapper
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_react_agent.py", line 437, in reply
+    msg_reasoning = await self._reasoning(tool_choice)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/tool_guard_mixin.py", line 349, in _reasoning
+    return await super()._reasoning(  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_react_agent.py", line 581, in _reasoning
+    async for content_chunk in res:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/retry_chat_model.py", line 165, in _wrap_stream
+    raise failed_exc
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/retry_chat_model.py", line 154, in _wrap_stream
+    async for chunk in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/token_usage/model_wrapper.py", line 66, in _wrap_stream
+    async for chunk in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/openai_chat_model_compat.py", line 196, in _parse_openai_stream_response
+    async for parsed in super()._parse_openai_stream_response(
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/model/_openai_model.py", line 349, in _parse_openai_stream_response
+    async for item in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/openai_chat_model_compat.py", line 161, in __anext__
+    item = await self._ctx_stream.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 155, in __anext__
+    return await self._iterator.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 172, in __stream__
+    async for sse in iterator:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 162, in _iter_events
+    async for sse in self._decoder.aiter_bytes(self.response.aiter_bytes()):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 319, in aiter_bytes
+    async for chunk in self._aiter_chunks(iterator):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 330, in _aiter_chunks
+    async for chunk in iterator:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_models.py", line 997, in aiter_bytes
+    async for raw_bytes in self.aiter_raw():
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_models.py", line 1055, in aiter_raw
+    async for raw_stream_bytes in self.stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_client.py", line 176, in __aiter__
+    async for chunk in self._stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 270, in __aiter__
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+2026-03-13 16:38:33 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 16:39:51 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 16:39:51 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_b99e2e6e-b6dd-481c-986d-a0589e616c48', name='user', content=[{'type': 'text', 'text': 'vuelve a hacer el proceso, hubo un error ajeno'}], role='user', metadata=None, timestamp='2026-03-13 16:39:51.812', invocation_id='None')]..."
+}
+2026-03-13 16:39:51 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 17:08:24 | Error in query handler: 
+(Details:  /var/folders/r0/x9596ktn35b6fp46wqgds9xw0000gp/T/copaw_query_error_p4dd0cn6.json)
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/app/runner/runner.py", line 268, in query_handler
+    async for msg, last in stream_printing_messages(
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/pipeline/_functional.py", line 192, in stream_printing_messages
+    raise exception from None
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_base.py", line 455, in __call__
+    reply_msg = await self.reply(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/react_agent.py", line 529, in reply
+    return await super().reply(msg=msg, structured_model=structured_model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/tracing/_trace.py", line 392, in wrapper
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_react_agent.py", line 437, in reply
+    msg_reasoning = await self._reasoning(tool_choice)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/tool_guard_mixin.py", line 349, in _reasoning
+    return await super()._reasoning(  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_react_agent.py", line 581, in _reasoning
+    async for content_chunk in res:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/retry_chat_model.py", line 165, in _wrap_stream
+    raise failed_exc
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/retry_chat_model.py", line 154, in _wrap_stream
+    async for chunk in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/token_usage/model_wrapper.py", line 66, in _wrap_stream
+    async for chunk in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/openai_chat_model_compat.py", line 196, in _parse_openai_stream_response
+    async for parsed in super()._parse_openai_stream_response(
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/model/_openai_model.py", line 349, in _parse_openai_stream_response
+    async for item in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/openai_chat_model_compat.py", line 161, in __anext__
+    item = await self._ctx_stream.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 155, in __anext__
+    return await self._iterator.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 172, in __stream__
+    async for sse in iterator:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 162, in _iter_events
+    async for sse in self._decoder.aiter_bytes(self.response.aiter_bytes()):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 319, in aiter_bytes
+    async for chunk in self._aiter_chunks(iterator):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 330, in _aiter_chunks
+    async for chunk in iterator:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_models.py", line 997, in aiter_bytes
+    async for raw_bytes in self.aiter_raw():
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_models.py", line 1055, in aiter_raw
+    async for raw_stream_bytes in self.stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_client.py", line 176, in __aiter__
+    async for chunk in self._stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 270, in __aiter__
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+2026-03-13 17:08:24 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 17:09:50 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 17:09:50 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_7b3c1267-8446-49fb-abc9-47e83b9d0d5e', name='user', content=[{'type': 'text', 'text': 'Ok falta el paso 4. \\nParece que se agotan los tokens\\nDime antes de hacerlo si se puede hacer en Python en vez de JavaScript'}], role='user', metadata=None, timestamp='2026-03-13 17:09:50.565', invoc..."
+}
+2026-03-13 17:09:50 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 17:20:34 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 17:22:58 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 17:22:58 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_35ad2c8c-d222-4e64-b95c-d7f662f0b3bf', name='user', content=[{'type': 'text', 'text': 'Si'}], role='user', metadata=None, timestamp='2026-03-13 17:22:58.343', invocation_id='None')]..."
+}
+2026-03-13 17:22:58 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 17:46:20 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 17:49:39 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 17:49:39 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_6583cc9f-31dc-4752-b661-b280950f87a2', name='user', content=[{'type': 'text', 'text': 'Vale ahora evalúa la carga de los procesos de este sistema de gestión de tokens en su totalidad\\nValora ralentizacion del resultado\\nCarga de memoria\\nUtilidad global en el proceso\\nY otras valoracion..."
+}
+2026-03-13 17:49:40 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 18:06:56 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 18:25:25 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 18:25:25 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_37e6a135-6b14-4954-a82a-768c38c373e7', name='user', content=[{'type': 'text', 'text': 'Ok haz los ajustes q propones de prioridad alta y media, y lo de “No implementar” si necesita algún ajuste también'}], role='user', metadata=None, timestamp='2026-03-13 18:25:25.898', invocation_id='N..."
+}
+2026-03-13 18:25:25 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 19:16:47 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 19:18:56 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 19:18:56 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_d27987b2-d8dd-4384-a688-47fc8096f4ed', name='user', content=[{'type': 'text', 'text': 'Pregunta: la guía completa de casos de usos es para mí?'}], role='user', metadata=None, timestamp='2026-03-13 19:18:56.385', invocation_id='None')]..."
+}
+2026-03-13 19:18:56 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 19:24:59 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 19:24:59 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 19:24:59 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_b8c82f09-0690-44e2-939f-a60b3f2f2d86', name='user', content=[{'type': 'text', 'text': 'pregunta: el sistema con sus mejoras ya está funcionando?'}, {'type': 'text', 'text': 'Explícame cómo funciona ahora mismo tu arquitectura de memoria\\nExplica con esquema sencillo, pero entendible cóm..."
+}
+2026-03-13 19:24:59 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 19:34:48 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 19:45:19 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 19:45:19 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_996fb462-9462-45d9-b3de-077de519bba8', name='user', content=[{'type': 'text', 'text': 'Vale y explícame cuando tengo que “cambiar de sesión” y cómo hacerlo \\nTú como app tienes el comando “/new” que cabía de sesión y gestiona el contexto \\nEso sirve?\\nHay q hacerlo igual?'}], role='user..."
+}
+2026-03-13 19:45:19 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 19:52:19 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 19:58:11 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 19:58:11 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_d206dff0-3db5-4727-a06d-c83c63d825ff', name='user', content=[{'type': 'text', 'text': 'Ok entiendo\\nNo quiero “reiniciar sistema” pero si cambiar de tema, \\nTe lo puedo pedir con lenguaje natural? O es lo mismo que usar el código “/new” (si es lo mismo, usaré el código por sistema\\nPara..."
+}
+2026-03-13 19:58:11 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 20:04:50 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 20:08:35 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 20:08:35 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_4779d66a-709e-4563-a7c0-dd51411d34b5', name='user', content=[{'type': 'text', 'text': 'Vale ahora revisa la inf sobre la memoria de Copaw en https://copaw.bot/docs/memory.html\\n\\nY confírmame que estos procesos diseñados en la app se mantienen en “nuestro cerebro”'}], role='user', metad..."
+}
+2026-03-13 20:08:35 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 20:19:32 | Marked 222 messages as compacted
+2026-03-13 20:27:22 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 20:33:08 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 20:33:08 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_8a32d472-887b-4560-aaa7-cf01a897d65a', name='user', content=[{'type': 'text', 'text': 'Genial Piter \\nEn cuanto a memoria todo listo!\\nGestiona el contexto de esta sesión tan productiva como tú veas'}], role='user', metadata=None, timestamp='2026-03-13 20:33:08.368', invocation_id='None..."
+}
+2026-03-13 20:33:08 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 20:42:39 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 20:45:23 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 20:45:23 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_edd3600d-8fe0-4884-bbae-9d0152bdcd4f', name='user', content=[{'type': 'text', 'text': 'Ahora en cuanto a funcionamiento, \\nConfirma que Todas las herramientas comandos skills y funciones operativas están activadas y correctamente conectadas y enlazadas con nuestro cerebro\\nNo ejecutes n..."
+}
+2026-03-13 20:45:23 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 20:51:57 | Browser idle for 1800s (limit 1800s), stopping to release resources
+2026-03-13 20:53:48 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 22:15:39 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 22:15:39 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_ddec51b2-c652-47df-8a6f-67172c367497', name='user', content=[{'type': 'text', 'text': 'Genial, Peter\\nAhora explícame cuándo es preferible usar un MCP o bien una Skill para cuando queramos conectar con algún tipo de herramienta útil?'}], role='user', metadata=None, timestamp='2026-03-13..."
+}
+2026-03-13 22:15:39 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 22:21:01 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 22:23:49 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 22:23:49 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_c432a6fc-35a7-4dc3-840c-aa6b5b5eacec', name='user', content=[{'type': 'text', 'text': 'Pregunta: esta respuesta con la comparativa entre M CP y skills la has generado con todos los protocolos e instrucciones que tenemos activados, cumpliendo todo lo que tenemos configurado?\\nPorque si e..."
+}
+2026-03-13 22:23:49 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 22:24:57 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 22:34:30 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 22:34:30 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_c3609ab1-9a07-4562-b90a-6bb5a5b83218', name='user', content=[{'type': 'text', 'text': 'Vale Piter genial'}], role='user', metadata=None, timestamp='2026-03-13 22:34:30.184', invocation_id='None')]..."
+}
+2026-03-13 22:34:30 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 22:34:46 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 22:37:49 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 22:37:49 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_33852321-34c8-4e2f-b3ec-4815ed9810b6', name='user', content=[{'type': 'text', 'text': '2+2'}], role='user', metadata=None, timestamp='2026-03-13 22:37:49.559', invocation_id='None')]..."
+}
+2026-03-13 22:37:49 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 22:37:58 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 22:40:28 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 22:40:28 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_a5f472b1-3672-4cd8-aea8-e2e14ec2ae75', name='user', content=[{'type': 'text', 'text': 'Revisa los logs. Quizás sea necesario dar un paso atrás en el formato del output. \\nMe gusta más los informes de estado de todo el sistema y el comparativo mcp vs skills que las 2 últimas respuestas\\n..."
+}
+2026-03-13 22:40:28 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 22:40:44 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 23:21:21 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-13 23:21:21 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_eb5d94c2-60bf-40f0-9af3-bc2142ddee55', name='user', content=[{'type': 'text', 'text': 'Intenta revertir el estado del sistema a antes de la reducción drástica Piter\\nConfío en ti'}], role='user', metadata=None, timestamp='2026-03-13 23:21:21.507', invocation_id='None')]..."
+}
+2026-03-13 23:21:21 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-13 23:24:55 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:06:47 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 00:06:47 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_52aaf582-4aee-498f-aac5-0a4bc899bc3d', name='user', content=[{'type': 'text', 'text': 'Entiendo que es mantener el estado actual es la opción \\nNecesito configurar sobre todo el formato de salida vistoso y bien estructurado. Me asusté cuando mandaste 2 respuestas de texto plano \\nPrepar..."
+}
+2026-03-14 00:06:47 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:07:20 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:11:56 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 00:11:56 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_47265205-ede5-4d75-b77a-422f0289fde9', name='user', content=[{'type': 'text', 'text': 'Observa el último log\\nGeneras un error que bloquea tu proceso y acabas con estos códigos \\n</parameter>\\n</function>\\n</tool_call>\\n\\nIdentifica lo que genera este error y propón una solución'}], rol..."
+}
+2026-03-14 00:11:56 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:12:08 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:13:19 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 00:13:19 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_dbc5c8d2-6a7c-400f-a345-333f0d3ca785', name='user', content=[{'type': 'text', 'text': 'Otra vez \\nDepura el error'}], role='user', metadata=None, timestamp='2026-03-14 00:13:19.922', invocation_id='None')]..."
+}
+2026-03-14 00:13:19 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:13:30 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:15:04 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 00:15:04 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_4e6876b4-5abb-4003-8d65-b1e8ea960097', name='user', content=[{'type': 'text', 'text': '.'}], role='user', metadata=None, timestamp='2026-03-14 00:15:04.884', invocation_id='None')]..."
+}
+2026-03-14 00:15:04 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:15:16 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:15:29 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 00:15:29 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_be178e47-4126-415e-b38a-cb7470939034', name='user', content=[{'type': 'text', 'text': '.'}], role='user', metadata=None, timestamp='2026-03-14 00:15:29.767', invocation_id='None')]..."
+}
+2026-03-14 00:15:29 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:15:41 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:16:05 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 00:16:05 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_e353c88c-346d-4531-8c74-82cea00d7f26', name='user', content=[{'type': 'text', 'text': 'Intenta revertir el estado del sistema a antes de la reducción drástica Piter\\nConfío en ti'}], role='user', metadata=None, timestamp='2026-03-14 00:16:05.402', invocation_id='None')]..."
+}
+2026-03-14 00:16:05 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:24:09 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:24:09 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 00:24:09 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_60c49ecb-12f5-4f9f-b8f1-97b790bb81c8', name='user', content=[{'type': 'text', 'text': 'Ok'}], role='user', metadata=None, timestamp='2026-03-14 00:24:09.992', invocation_id='None')]..."
+}
+2026-03-14 00:24:10 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:25:39 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:29:33 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 00:29:33 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_6db47125-1d15-4ecc-bf49-b6e9500c69fc', name='user', content=[{'type': 'text', 'text': 'Así está todo genial\\nExplícame lo que has revertido y si conservamos algo de todas las configuraciones que fuimos haciendo todo el día de hoy'}], role='user', metadata=None, timestamp='2026-03-14 00:..."
+}
+2026-03-14 00:29:33 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:34:05 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:36:43 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 00:36:43 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_10a0ee43-aaff-461a-b6d8-0e156dcc3800', name='user', content=[{'type': 'text', 'text': 'OK, consolida este formato y configuración'}], role='user', metadata=None, timestamp='2026-03-14 00:36:43.638', invocation_id='None')]..."
+}
+2026-03-14 00:36:43 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:48:51 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 00:59:24 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 00:59:24 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_39f8ced4-8fe3-4a15-a770-e19e9e98f981', name='user', content=[{'type': 'text', 'text': '2+2'}], role='user', metadata=None, timestamp='2026-03-14 00:59:24.855', invocation_id='None')]..."
+}
+2026-03-14 00:59:24 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:00:14 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:02:55 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 01:02:55 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_52721b4f-1eb7-42ce-bc29-f87d1b6c45d8', name='user', content=[{'type': 'text', 'text': 'Jejje genial Piter era una prueba!!'}], role='user', metadata=None, timestamp='2026-03-14 01:02:55.125', invocation_id='None')]..."
+}
+2026-03-14 01:02:55 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:03:36 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:04:14 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 01:04:14 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_3ffede39-cf17-4d7f-b30b-b358b25f4341', name='user', content=[{'type': 'text', 'text': 'Dame fecha y hora de hoy'}], role='user', metadata=None, timestamp='2026-03-14 01:04:14.753', invocation_id='None')]..."
+}
+2026-03-14 01:04:14 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:04:41 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:05:35 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 01:05:35 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_97229f08-a0c2-4380-b36a-894efea2ab47', name='user', content=[{'type': 'text', 'text': 'Hoy es sábado no domingo\\nRevisa lo q puede haber pasado'}], role='user', metadata=None, timestamp='2026-03-14 01:05:35.238', invocation_id='None')]..."
+}
+2026-03-14 01:05:35 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:07:34 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:09:05 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 01:09:05 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_69d9cf8c-ee99-47e7-acbb-912cef794b69', name='user', content=[{'type': 'text', 'text': 'Si. Ajusta la fecha verificando 1-2 fuentes externas y cambia lo que necesites'}], role='user', metadata=None, timestamp='2026-03-14 01:09:05.262', invocation_id='None')]..."
+}
+2026-03-14 01:09:05 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:16:08 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:21:05 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 01:21:05 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_3e1ad242-5d0e-4aa2-9d84-29a8dd620ede', name='user', content=[{'type': 'text', 'text': 'Buen razonamiento Piter\\nAhora dame el tiempo previsto para hoy en Tui'}], role='user', metadata=None, timestamp='2026-03-14 01:21:05.153', invocation_id='None')]..."
+}
+2026-03-14 01:21:05 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:25:08 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 01:41:29 | Browser idle for 1857s (limit 1800s), stopping to release resources
+2026-03-14 13:16:11 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 13:16:11 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_6e4be713-b358-4360-b3b3-ef3f28f8e550', name='user', content=[{'type': 'text', 'text': 'Hola Piter\\nCuál es el siguiente paso que deberíamos completar en nuestro arranque de cerebro compartido?'}], role='user', metadata=None, timestamp='2026-03-14 13:16:11.362', invocation_id='None')]..."
+}
+2026-03-14 13:16:11 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 13:21:19 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 13:29:18 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 13:29:18 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_c7b89678-15cc-4a8e-a0bf-611155d5e396', name='user', content=[{'type': 'text', 'text': 'Pregunta:\\nLa carpeta projects está vacía?'}], role='user', metadata=None, timestamp='2026-03-14 13:29:18.095', invocation_id='None')]..."
+}
+2026-03-14 13:29:18 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 13:31:06 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 13:32:31 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 13:32:31 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_7807fc5b-0bf8-4812-b133-72e229e0246a', name='user', content=[{'type': 'text', 'text': 'Revisa los archivos de memorias \\nY revisa porque no recuerdas lo q que te hablé de los proyectos'}], role='user', metadata=None, timestamp='2026-03-14 13:32:31.219', invocation_id='None')]..."
+}
+2026-03-14 13:32:31 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 13:45:39 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 14:13:38 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 14:13:38 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_381597e2-35cd-4181-9a7a-6d1a05dbb2ad', name='user', content=[{'type': 'text', 'text': 'Bien genial\\nRevisa toda tu carpeta .copaw y refina los archivos .md con la skill y usa el script de poda para eliminar texto inútil o redundancias\\nPásame el informe de lo que vas a hacer antes de ej..."
+}
+2026-03-14 14:13:38 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 14:32:00 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 14:40:39 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 14:40:39 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_261b2ac8-b2c2-4bba-9691-a2203f8a3ff1', name='user', content=[{'type': 'text', 'text': 'Si. Piter. Buen trabajo \\nEjecuta opción A'}], role='user', metadata=None, timestamp='2026-03-14 14:40:39.687', invocation_id='None')]..."
+}
+2026-03-14 14:40:39 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:07:13 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:07:13 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 15:07:13 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_168f2c3f-089e-4134-ac53-be29af5c62e6', name='user', content=[{'type': 'text', 'text': '/stop'}, {'type': 'text', 'text': '/compact'}], role='user', metadata=None, timestamp='2026-03-14 15:07:13.332', invocation_id='None')]..."
+}
+2026-03-14 15:07:13 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:17:13 | Error in query handler: 
+(Details:  /var/folders/r0/x9596ktn35b6fp46wqgds9xw0000gp/T/copaw_query_error_gep74p_k.json)
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/app/runner/runner.py", line 268, in query_handler
+    async for msg, last in stream_printing_messages(
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/pipeline/_functional.py", line 192, in stream_printing_messages
+    raise exception from None
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_base.py", line 455, in __call__
+    reply_msg = await self.reply(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/react_agent.py", line 529, in reply
+    return await super().reply(msg=msg, structured_model=structured_model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/tracing/_trace.py", line 392, in wrapper
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_react_agent.py", line 437, in reply
+    msg_reasoning = await self._reasoning(tool_choice)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/tool_guard_mixin.py", line 349, in _reasoning
+    return await super()._reasoning(  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_agent_meta.py", line 120, in async_wrapper
+    current_output = await original_func(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/agent/_react_agent.py", line 581, in _reasoning
+    async for content_chunk in res:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/retry_chat_model.py", line 165, in _wrap_stream
+    raise failed_exc
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/retry_chat_model.py", line 154, in _wrap_stream
+    async for chunk in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/token_usage/model_wrapper.py", line 66, in _wrap_stream
+    async for chunk in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/openai_chat_model_compat.py", line 196, in _parse_openai_stream_response
+    async for parsed in super()._parse_openai_stream_response(
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/agentscope/model/_openai_model.py", line 349, in _parse_openai_stream_response
+    async for item in stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/providers/openai_chat_model_compat.py", line 161, in __anext__
+    item = await self._ctx_stream.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 155, in __anext__
+    return await self._iterator.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 172, in __stream__
+    async for sse in iterator:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 162, in _iter_events
+    async for sse in self._decoder.aiter_bytes(self.response.aiter_bytes()):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 319, in aiter_bytes
+    async for chunk in self._aiter_chunks(iterator):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/openai/_streaming.py", line 330, in _aiter_chunks
+    async for chunk in iterator:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_models.py", line 997, in aiter_bytes
+    async for raw_bytes in self.aiter_raw():
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_models.py", line 1055, in aiter_raw
+    async for raw_stream_bytes in self.stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_client.py", line 176, in __aiter__
+    async for chunk in self._stream:
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 270, in __aiter__
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+2026-03-14 15:17:13 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:17:13 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 15:17:13 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_82e33fde-3be8-46c6-b491-9a0a415e9261', name='user', content=[{'type': 'text', 'text': 'Revisa el bucle que estabas metido \\nMira logs revisa error y haz una propuesta de solución'}], role='user', metadata=None, timestamp='2026-03-14 15:17:13.825', invocation_id='None')]..."
+}
+2026-03-14 15:17:13 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:21:23 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:21:23 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 15:21:23 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_2ec838c3-e93f-48e5-b0e5-706d50c041a8', name='user', content=[{'type': 'text', 'text': 'Ok Piter revisa los archivos principales que todo esté ok'}], role='user', metadata=None, timestamp='2026-03-14 15:21:23.319', invocation_id='None')]..."
+}
+2026-03-14 15:21:23 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:21:53 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:44:29 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 15:44:29 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_b1157117-3f0b-4c80-b8e6-e356ed691156', name='user', content=[{'type': 'text', 'text': 'Confirma que has terminado el proceso\\nY presenta las tres reglas para impedir el bucle para que yo confirme usarlas'}], role='user', metadata=None, timestamp='2026-03-14 15:44:29.591', invocation_id=..."
+}
+2026-03-14 15:44:29 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:44:37 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:50:32 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 15:50:32 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_b183e67f-8970-47dc-82c5-af7a1de10c07', name='user', content=[{'type': 'text', 'text': '2+2'}], role='user', metadata=None, timestamp='2026-03-14 15:50:32.286', invocation_id='None')]..."
+}
+2026-03-14 15:50:32 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:54:45 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 15:56:15 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 15:56:15 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_a547f6fa-d69d-4bc3-9701-fdd3280e769b', name='user', content=[{'type': 'text', 'text': 'Bien termina ahora el proceso de verificación de archivos principales'}], role='user', metadata=None, timestamp='2026-03-14 15:56:15.026', invocation_id='None')]..."
+}
+2026-03-14 15:56:15 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 16:32:56 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 17:09:07 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 17:09:07 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_a9a97b07-b304-4711-83b0-344b829e5167', name='user', content=[{'type': 'text', 'text': 'No tengo conocimiento suficiente para saber si es mejor en un archivo o en otro. No quiero saturar los archivos base eso si \\nDame una\\nSencilla explicación para poder decidir'}], role='user', metadat..."
+}
+2026-03-14 17:09:07 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 17:15:31 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 17:21:32 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 17:21:32 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_bed8a6b5-17ff-4c14-b58f-85b178fa9eab', name='user', content=[{'type': 'text', 'text': 'Para decidir mejor dime a qué procesos se aplicarían estas reglas'}], role='user', metadata=None, timestamp='2026-03-14 17:21:32.331', invocation_id='None')]..."
+}
+2026-03-14 17:21:32 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 17:28:28 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 19:09:39 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 19:09:39 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_fe1bd4c5-5834-4647-bbe3-ac7f16dbe01b', name='user', content=[{'type': 'text', 'text': 'De acuerdo aplícalo en Memory'}], role='user', metadata=None, timestamp='2026-03-14 19:09:39.937', invocation_id='None')]..."
+}
+2026-03-14 19:09:40 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 21:45:40 | Vector search disabled. Memory search functionality will be restricted. To enable, configure: EMBEDDING_API_KEY, EMBEDDING_BASE_URL, EMBEDDING_MODEL_NAME.
+2026-03-14 21:45:40 | Using local Qwen tokenizer from /Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/tokenizer
+2026-03-14 21:45:43 | telegram: channel initialized (polling will start)
+2026-03-14 21:45:43 | telegram: channel started (polling task created)
+2026-03-14 21:45:43 | Console channel started
+2026-03-14 21:45:43 | Matrix channel not configured or disabled. Skipping start.
+2026-03-14 21:45:43 | Voice channel disabled, skipping start
+2026-03-14 21:45:43 | ConfigWatcher started (poll=2.0s, path=/Users/piter/.copaw/config.json)
+2026-03-14 21:45:43 | telegram: registered 5 bot commands
+2026-03-14 21:45:43 | telegram: polling started (receiving updates)
+2026-03-14 21:45:44 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 21:45:44 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_f7b063e5-dbdc-4877-adfc-05f06312b515', name='user', content=[{'type': 'text', 'text': 'Detecta el error que genera bucles y anticípate. Corre para evitarlo Piter'}, {'type': 'text', 'text': '22'}], role='user', metadata=None, timestamp='2026-03-14 21:45:44.088', invocation_id='None')]..."
+}
+2026-03-14 21:45:44 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 21:46:04 | Get session state dict from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 21:46:08 | Get session state dict from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 21:47:40 | Guard rules directory not found: /Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/security/tool_guard/rules
+2026-03-14 21:52:19 | Guard rules directory not found: /Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/security/tool_guard/rules
+2026-03-14 22:11:38 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 22:15:12 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 22:15:12 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_f356aebb-a04d-4d7f-809f-231ed453f41f', name='user', content=[{'type': 'text', 'text': 'Haz alguna prueba para comprobarlo ( si no la hiciste aún)'}], role='user', metadata=None, timestamp='2026-03-14 22:15:12.106', invocation_id='None')]..."
+}
+2026-03-14 22:15:12 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 22:40:35 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 22:42:05 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 22:42:05 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_d72f837f-2170-4bb5-bbdf-4a9af475b6d5', name='user', content=[{'type': 'text', 'text': 'El procesamiento de thinking del promt con el modelo está tardando \\nTampoco sé si es mucho o es normal\\nPuedes valorar este parámetro y ver si ha posibles mejoras o refinar el proceso?'}], role='user..."
+}
+2026-03-14 22:42:05 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 22:53:49 | Get session state dict from /Users/piter/.copaw/sessions/default_1773354362692.json successfully.
+2026-03-14 22:53:53 | Get session state dict from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 22:54:53 | Marked 231 messages as compacted
+2026-03-14 23:05:50 | Failed to compact memory in pre_reasoning hook: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/hooks/memory_compaction.py", line 75, in __call__
+    config = load_config()
+             ^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/utils.py", line 338, in load_config
+    data = json.load(file)
+           ^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+2026-03-14 23:05:52 | ConfigWatcher: failed to parse config.json
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/watcher.py", line 210, in _check
+    loaded = load_config(self._config_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/utils.py", line 338, in load_config
+    data = json.load(file)
+           ^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+2026-03-14 23:06:04 | Failed to compact memory in pre_reasoning hook: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/hooks/memory_compaction.py", line 75, in __call__
+    config = load_config()
+             ^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/utils.py", line 338, in load_config
+    data = json.load(file)
+           ^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+2026-03-14 23:06:19 | Failed to compact memory in pre_reasoning hook: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/hooks/memory_compaction.py", line 75, in __call__
+    config = load_config()
+             ^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/utils.py", line 338, in load_config
+    data = json.load(file)
+           ^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+2026-03-14 23:09:43 | Failed to compact memory in pre_reasoning hook: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/hooks/memory_compaction.py", line 75, in __call__
+    config = load_config()
+             ^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/utils.py", line 338, in load_config
+    data = json.load(file)
+           ^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+2026-03-14 23:10:08 | Failed to compact memory in pre_reasoning hook: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/agents/hooks/memory_compaction.py", line 75, in __call__
+    config = load_config()
+             ^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/utils.py", line 338, in load_config
+    data = json.load(file)
+           ^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+2026-03-14 23:10:16 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:10:16 | channel consume_one failed
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/app/channels/base.py", line 548, in _run_process_loop
+    self._on_reply_sent(self.channel, *args)
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/utils.py", line 372, in update_last_dispatch
+    config = load_config()
+             ^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/utils.py", line 338, in load_config
+    data = json.load(file)
+           ^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+2026-03-14 23:11:50 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 23:11:50 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_dbbba4f3-8001-4a6a-918f-d0b046351039', name='user', content=[{'type': 'text', 'text': 'Sigue Piter'}], role='user', metadata=None, timestamp='2026-03-14 23:11:50.297', invocation_id='None')]..."
+}
+2026-03-14 23:11:50 | Error in query handler: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+(Details:  /var/folders/r0/x9596ktn35b6fp46wqgds9xw0000gp/T/copaw_query_error_yli07w_m.json)
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/app/runner/runner.py", line 210, in query_handler
+    config = load_config()
+             ^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/utils.py", line 338, in load_config
+    data = json.load(file)
+           ^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+2026-03-14 23:11:50 | channel consume_one failed
+Traceback (most recent call last):
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/app/channels/base.py", line 548, in _run_process_loop
+    self._on_reply_sent(self.channel, *args)
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/utils.py", line 372, in update_last_dispatch
+    config = load_config()
+             ^^^^^^^^^^^^^
+  File "/Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/config/utils.py", line 338, in load_config
+    data = json.load(file)
+           ^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/piter/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 264 column 42 (char 6728)
+2026-03-14 23:38:18 | Vector search disabled. Memory search functionality will be restricted. To enable, configure: EMBEDDING_API_KEY, EMBEDDING_BASE_URL, EMBEDDING_MODEL_NAME.
+2026-03-14 23:38:18 | Using local Qwen tokenizer from /Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/tokenizer
+2026-03-14 23:38:25 | telegram: channel initialized (polling will start)
+2026-03-14 23:38:25 | telegram: channel started (polling task created)
+2026-03-14 23:38:25 | Console channel started
+2026-03-14 23:38:25 | Matrix channel not configured or disabled. Skipping start.
+2026-03-14 23:38:25 | Voice channel disabled, skipping start
+2026-03-14 23:38:25 | ConfigWatcher started (poll=2.0s, path=/Users/piter/.copaw/config.json)
+2026-03-14 23:38:25 | telegram: registered 5 bot commands
+2026-03-14 23:38:25 | telegram: polling started (receiving updates)
+2026-03-14 23:40:46 | Get session state dict from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:41:38 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 23:41:38 | Command path: /new
+2026-03-14 23:41:38 | Get session state dict from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:41:38 | Processing command: new, args: 
+2026-03-14 23:41:38 | Marked 62 messages as compacted
+2026-03-14 23:41:38 | Updated session state key 'agent.memory' in /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:41:47 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 23:41:47 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_3fb16edd-9ff4-4436-bd25-a65533fedf50', name='user', content=[{'type': 'text', 'text': 'hola Piter'}], role='user', metadata=None, timestamp='2026-03-14 23:41:47.637', invocation_id='None')]..."
+}
+2026-03-14 23:41:47 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:42:15 | Guard rules directory not found: /Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/security/tool_guard/rules
+2026-03-14 23:42:42 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:42:53 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 23:42:53 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_e3ec532d-c6ad-430a-81d4-d6e34b5a1a3f', name='user', content=[{'type': 'text', 'text': '2+2'}], role='user', metadata=None, timestamp='2026-03-14 23:42:53.764', invocation_id='None')]..."
+}
+2026-03-14 23:42:53 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:42:56 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:44:14 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 23:44:14 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_306a4547-8594-4f7b-87f0-6430ff8caa88', name='user', content=[{'type': 'text', 'text': 'bien Piter dime por donde podemos seguir nuestra puesta en marcha de cerebro digital'}], role='user', metadata=None, timestamp='2026-03-14 23:44:14.035', invocation_id='None')]..."
+}
+2026-03-14 23:44:14 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:44:25 | Guard rules directory not found: /Users/piter/.copaw/venv/lib/python3.12/site-packages/copaw/security/tool_guard/rules
+2026-03-14 23:45:31 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:47:10 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 23:47:10 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_468962a0-76f6-440d-9347-0b16df15bea8', name='user', content=[{'type': 'text', 'text': 'hemos dado muchas vueltas a la configuracion y hemos perdido mucho tiempo, pero hay que configurar memory'}], role='user', metadata=None, timestamp='2026-03-14 23:47:10.589', invocation_id='None')]..."
+}
+2026-03-14 23:47:10 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:50:34 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:55:54 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-14 23:55:54 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_04cad84d-a558-4fb4-a101-c50f0257be49', name='user', content=[{'type': 'text', 'text': 'quiero crear un sistema de backup para no perder los progresos o si tener algun problema recuperar nuestro cerebro.\\nque te parece github? alguna otra herramienta?'}], role='user', metadata=None, time..."
+}
+2026-03-14 23:55:54 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-14 23:57:51 | Saved session state to /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.
+2026-03-15 00:01:51 | base _consume_one_request: send_meta has_session_webhook=False
+2026-03-15 00:01:51 | Handle agent query:
+{
+  "session_id": "telegram:1350110165",
+  "user_id": "1350110165",
+  "channel": "telegram",
+  "msgs_len": 1,
+  "msgs_str": "[Msg(id='msg_2ccf67bb-2ef9-4522-a2ad-0b3775a1b62f', name='user', content=[{'type': 'text', 'text': 'SI, adelante. la cuenta está con el email agente.mateofg@gmail.com'}], role='user', metadata=None, timestamp='2026-03-15 00:01:51.927', invocation_id='None')]..."
+}
+2026-03-15 00:01:51 | Load session state from /Users/piter/.copaw/sessions/1350110165_telegram--1350110165.json successfully.

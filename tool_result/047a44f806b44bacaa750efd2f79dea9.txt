@@ -1,0 +1,36 @@
+# tool_name: read_file
+# created_at: 2026-03-14T22:24:36.001242
+# ---
+/Users/piter/.copaw/MEMORY.md  (lines 1-30 of 222)
+---
+summary: "Agent long-term memory — tool setup and lessons learned"
+read_when:
+  - Bootstrapping a workspace manually
+  - Error de contexto overflow (n_keep >= n_ctx)
+  - Necesitas saber qué skills están instaladas
+  - Configuración del sistema de optimización de tokens
+  - Resumen sesión productiva 13/03/2026: Sistema optimización tokens + caché implementado con éxito
+---
+
+## 🛡️ Reglas para Evitar Bucle Infinito
+
+**Objetivo:** Prevenir errores como `write_file() missing 2 required positional arguments`
+
+### REGLA 1: SIEMPRE PROPORCIONAR ARGUMENTOS REQUERIDOS ⭐⭐⭐
+
+```python
+# ❌ MAL: write_file() sin argumentos
+write_file()
+
+# ✅ BIEN: write_file con todos los argumentos
+write_file(file_path="/path/to/file.md", content="contenido")
+```
+
+### REGLA 2: VERIFICAR ANTES DE ESCRIBIR ⭐⭐
+
+```python
+# ✅ BUENO: Verificar si archivo existe antes de escribir
+if not file_exists("/path/to/file.md"):
+    write_file(file_path="/path/to/file.md", content="contenido inicial")
+
+[192 more lines. Use start_line=31 to continue.]

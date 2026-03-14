@@ -1,0 +1,57 @@
+# Configuración de anthropic-skill-creator
+
+skill_creator:
+  name: "anthropic-skill-creator"
+  description: "Crea skills iterativamente para Anthropic Claude API con estructura completa"
+  version: "1.0.0"
+  
+  # Directorios del workspace
+  workspace:
+    root: "/Users/piter/.copaw/active_skills/anthropic-skill-creator"
+    scripts: "/Users/piter/.copaw/active_skills/anthropic-skill-creator/scripts"
+    references: "/Users/piter/.copaw/active_skills/anthropic-skill-creator/references"
+    assets: "/Users/piter/.copaw/active_skills/anthropic-skill-creator/assets"
+    
+  # Configuración de Anthropic API
+  anthropic:
+    api_key_env: "ANTHROPIC_API_KEY"
+    default_model: "claude-3-5-sonnet-20241022"
+    max_tokens: 4096
+    
+  # Configuración de Python
+  python:
+    interpreter: "/usr/bin/python3"
+    packages:
+      - anthropic
+      - pydantic
+      - rich
+      - click
+    
+  # Estructura de archivos por defecto
+  default_files:
+    - "SKILL.md"
+    - "python_example.py"
+    - "cli_main.py"
+    - "config.yaml"
+    
+  # Extensiones de archivo
+  file_extensions:
+    markdown: ".md"
+    python: ".py"
+    yaml: ".yaml"
+    json: ".json"
+    
+  # Límites
+  limits:
+    max_skill_name_length: 50
+    max_description_length: 200
+    max_context_length: 500
+    
+  # Mensajes de ayuda
+  messages:
+    success_prefix: "✓"
+    error_prefix: "✗"
+    warning_prefix: "⚠"
+    
+  # Idioma por defecto
+  language: "es"

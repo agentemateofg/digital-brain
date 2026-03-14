@@ -1,0 +1,53 @@
+# tool_name: execute_shell_command
+# created_at: 2026-03-14T14:45:20.238243
+# ---
+#!/usr/bin/env node
+/**
+ * Memory Poda Script - Refinado y limpieza de archivos MD
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+// Configuración
+const WORKING_DIR = '/Users/piter/.copaw';
+const MEMORY_DIR = path.join(WORKING_DIR, 'memory');
+const MEMORY_FILE = path.join(WORKING_DIR, 'MEMORY.md');
+const AGENTS_FILE = path.join(WORKING_DIR, 'AGENTS.md');
+const SOUL_FILE = path.join(WORKING_DIR, 'SOUL.md');
+const PROFILE_FILE = path.join(WORKING_DIR, 'PROFILE.md');
+
+// Función para optimizar archivo MD
+function optimizeMD(content) {
+  let optimized = content;
+  
+  // 1. Eliminar espacios en blanco al final de líneas
+  optimized = optimized.replace(/[ \t]+$/gm, '');
+  
+  // 2. Unir líneas vacías múltiples (máximo 1)
+  optimized = optimized.replace(/\n{3,}/g, '\n\n');
+  
+  // 3. Normalizar encabezados (solo # y ##)
+  optimized = optimized.replace(/^#{3,}(.+)$/gm, '## $1');
+  
+  return optimized;
+}
+
+// Procesar archivos
+console.log('🧹 Iniciando poda de memoria...\n');
+
+// 1. Optimizar MEMORY.md
+console.log('1️⃣ Optimizando MEMORY.md...');
+let memoryContent = fs.readFileSync(MEMORY_FILE, 'utf8');
+memoryContent = optimizeMD(memoryContent);
+fs.writeFileSync(MEMORY_FILE, memoryContent);
+console.log('   ✅ MEMORY.md optimizado\n');
+
+// 2. Resumir archivo diario reciente
+console.log('2️⃣ Resumiendo 2026-03-13.md...');
+const dailyFile = path.join(MEMORY_DIR, '2026-03-13.md');
+if (fs.existsSync(dailyFile)) {
+  let dailyContent = fs.readFileSync(dailyFile, 'utf8');
+  dailyContent = optimizeMD(dailyContent);
+  // Añadir resumen al inicio
+  const summaryHeader = `# Resumen - 13 de marzo de 2026\n\n`;

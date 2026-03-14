@@ -1,0 +1,56 @@
+# tool_name: read_file
+# created_at: 2026-03-13T18:41:05.676804
+# ---
+/Users/piter/.copaw/scripts/cache_manager.py  (lines 1-50 of 297)
+#!/usr/bin/env python3
+"""
+Cache Manager - Sistema de Caché y Reutilización (Opción C)
+Implementación completa con persistencia, validación y limpieza automática.
+"""
+
+import json
+import os
+from datetime import datetime
+from pathlib import Path
+from typing import Optional, Dict, Any
+
+
+class SessionCache:
+    """Sistema de caché persistente para análisis de archivos."""
+    
+    def __init__(self, cache_file: str = '.copaw_cache.json'):
+        self.cache_file = Path(cache_file)
+        self.session_cache = {
+            'project_structure': None,              # Cachear una vez por sesión
+            'analyzed_files': {},                   # Guardar análisis previos
+            'common_patterns': {},                  # Patrones detectados en el proyecto
+            'dependencies': None,                   # Árbol de dependencias
+            
+            # Persistencia y versión
+            'last_session_timestamp': None,         # Timestamp de inicio de sesión actual
+            'cache_version': '1.0',                 # Versión del esquema de caché
+            'max_cache_size_bytes': 50000,          # Límite de tamaño de caché
+            'eviction_policy': 'LRU',               # Política de expiración (LRU, FIFO, TTL)
+            
+            # Métricas de rendimiento:
+            'cache_hits': 0,                        # Contador de aciertos en caché
+            'cache_misses': 0,                      # Contador de fallos en caché
+            'total_savings_tokens': 0               # Tokens ahorrados por caché
+        }
+    
+    def should_re_analyze(self, file_path: str, last_analysis: Optional[Dict], 
+                         task_context: Optional[Dict] = None) -> bool:
+        """
+        Decidir si debe re-analizarse un archivo.
+        
+        Múltiples criterios:
+        1. Archivo modificado recientemente
+        2. Archivos críticos siempre re-analizar
+        3. Archivo grande (>1000 líneas) - re-analizar cada 24h
+        4. Tarea específica que requiere análisis completo
+        """
+        if not last_analysis:
+            return True
+        
+
+[247 more lines. Use start_line=51 to continue.]

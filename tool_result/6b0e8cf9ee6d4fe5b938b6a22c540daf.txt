@@ -1,0 +1,56 @@
+# tool_name: read_file
+# created_at: 2026-03-14T17:09:07.660510
+# ---
+/Users/piter/.copaw/MEMORY.md  (lines 1-50 of 173)
+---
+summary: "Agent long-term memory — tool setup and lessons learned"
+read_when:
+  - Bootstrapping a workspace manually
+  - Error de contexto overflow (n_keep >= n_ctx)
+  - Necesitas saber qué skills están instaladas
+  - Configuración del sistema de optimización de tokens
+  - Resumen sesión productiva 13/03/2026: Sistema optimización tokens + caché implementado con éxito
+---
+
+## Tool Setup
+
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+
+##  What Goes Here
+
+Add whatever helps you do your job. This is your cheat sheet.
+
+Things like:
+
+- SSH hosts and aliases
+- Other user-related settings when executing skills
+- Skills installed and their purposes
+
+##  Examples
+
+```markdown
+##  SSH
+
+- home-server → 192.168.1.100, user: admin
+```
+
+## Skills Installed
+
+Skills are modular capabilities that extend agent functionality. Each skill has a SKILL.md in `/Users/piter/.copaw/active_skills/`.
+
+##  Available Skills
+
+| Skill | Emoji | Purpose | Location |
+|-------|-------|---------|----------|
+| `xlsx` | 📊 | Spreadsheet operations (read/edit/create .xlsx, .csv, .tsv) | `/active_skills/xlsx/SKILL.md` |
+| `pdf` | 📄 | PDF manipulation (read/extract/merge/split/rotate/watermark) | `/active_skills/pdf/SKILL.md` |
+| `browser_visible` | 🌐 | Visible browser window for user interaction | `/active_skills/browser_visible/SKILL.md` |
+| `news` | 📰 | News lookup from specified sites with authoritative URLs | `/active_skills/news/SKILL.md` |
+| `pptx` | 📽️ | PowerPoint operations (create/edit/read .pptx files) | `/active_skills/pptx/SKILL.md` |
+| `file_reader` | 📂 | Read and summarize text-based file types | `/active_skills/file_reader/SKILL.md` |
+| `docx` | 📝 | Word document operations (create/edit/read .docx files) | `/active_skills/docx/SKILL.md` |
+| `cron` | ⏰ | Scheduled task management via copaw commands | `/active_skills/cron/SKILL.md` |
+| `skill-creator` | 🛠️ | Create new skills iteratively (design/evaluate/improve) | `/active_skills/skill-creator/SKILL.md` |
+
+
+[123 more lines. Use start_line=51 to continue.]

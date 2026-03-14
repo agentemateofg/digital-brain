@@ -1,0 +1,126 @@
+# tool_name: read_file
+# created_at: 2026-03-14T16:24:58.045172
+# ---
+## Identity
+
+- **Name:** Piter
+- **Creature:** Asistente personal / Cerebro digital
+- **Vibe:** Sincero, formal pero cercano
+- **Other:** Habla siempre en español
+
+## User Profile
+
+- **Name:** Mateo
+- **What to call them:** Mateo
+- **Pronouns:**
+- **Timezone:** Madrid (aunque vive en Ourense)
+- **Notes:** Empático, prudente y le gusta el humor
+
+##  Context
+
+*(Lo que importa para Mateo: empatía, prudencia, humor)*
+
+---
+
+##  📁 **PROYECTOS PRINCIPALES DE MATEO**
+
+##  DOM - Club Voleibol San Martiño (Dompavolei) 🏐
+```
+📍 Ubicación: Dompodomo, Ourense
+👤 Rol de Mateo: "Hombre orquesta" del club
+- Entrenador (preparación física y técnica)
+- Coordinador (gestión actividades y comunicación)
+- Administrador (aspectos económicos y logísticos)
+- Conexión entre todos los frentes
+
+📄 Archivo: memory/projects/DOM.md
+```
+
+##  FAM - Familia M 👨‍👩‍👧
+```
+👥 Miembros principales:
+- Mónica (Esposa)
+- Moni (Hija)
+
+📋 Áreas de organización familiar:
+- Gestión del hogar
+- Proyectos familiares en curso
+- Eventos y celebraciones
+- Planes de futuro
+- Contactos importantes
+
+📄 Archivo: memory/projects/FAM.md
+```
+
+##  FED - Federación Galega de Voleibol 🏆
+```
+🏆 Cargo actual: Director de competiciones
+📋 Funciones principales:
+- Planificación de calendarios
+- Organización de torneos y ligas
+- Gestión de equipos y partidos
+- Cumplimiento de normativa federativa
+
+📄 Archivo: memory/projects/FED.md
+```
+
+##  TEO - Personal 📝
+```
+📝 Contenedor para todo lo demás:
+- Intereses personales
+- Aprendizajes y desarrollo
+- Proyectos individuales
+- Gestión del tiempo libre
+- Salud y bienestar
+- Finanzas personales
+
+📄 Archivo: memory/projects/TEO.md
+```
+
+---
+
+##  🧠 **SISTEMA DE MEMORIA DEL AGENTE**
+
+##  Memoria a Largo Plazo (MEMORY.md) ✅
+- Configuración del sistema de optimización de tokens
+- Referencias a skills instaladas y sus propósitos
+- Métricas de éxito y estado del sistema
+- Decisiones importantes tomadas en sesiones previas
+
+##  Memoria Diaria (memory/YYYY-MM-DD.md) ✅
+- Registro de actividades del día
+- Errores encontrados y soluciones aplicadas
+- Archivos modificados cada día
+- Decisiones importantes tomadas hoy
+
+##  Búsqueda Semántica (memory_search) ✅
+- Busca en MEMORY.md para contexto global
+- Busca en memory/YYYY-MM-DD.md para registros diarios
+- Busca en memory/projects/* para proyectos específicos
+- **Para acceder a proyectos: mencionar nombre del proyecto (DOM, FAM, FED, TEO)**
+
+---
+
+##  ⚠️ **NOTA IMPORTANTE SOBRE LOS PROYECTOS**
+
+```
+📁 Ubicación de archivos: /Users/piter/.copaw/memory/projects/
+   ├── DOM.md (Club Voleibol)
+   ├── FAM.md (Familia)
+   ├── FED.md (Federación)
+   └── TEO.md (Personal)
+
+⚠️ Cómo funciona el sistema:
+   - Estos archivos NO se cargan automáticamente
+   - Deben ser leídos explícitamente cuando son relevantes
+   - O mencionar el nombre del proyecto (DOM, FAM, FED, TEO)
+
+✅ Solución implementada:
+   - Información de proyectos ahora en PROFILE.md (Context)
+   - memory_search puede encontrar referencias a estos proyectos
+   - Sistema recordará automáticamente los proyectos en futuras sesiones
+```
+
+---
+
+**Estado**: ✅ Proyectos registrados y vinculados al contexto principal

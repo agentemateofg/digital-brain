@@ -1,0 +1,53 @@
+# tool_name: execute_shell_command
+# created_at: 2026-03-13T14:12:07.209391
+# ---
+/**
+ * Markdown-Formatter - Format and beautify markdown documents
+ * Vernox v1.0 - Autonomous Revenue Agent
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+// Pattern matches
+const PATTERNS = {
+  trailingWhitespace: /[ \t]+$/gm,
+  multipleBlankLines: /\n{3,}/g,
+  inconsistentListDash: /^\s{0,2}([*-])\s/g,
+  inconsistentListAsterisk: /^\s{0,2}([*])\s/g,
+  inconsistentListPlus: /^\s{0,2}([+])\s/g,
+  inconsistentListTask: /^\s{0,2}(- \[ )\]\s/g,
+  atxHeading: /^#{1,2}\s[^#]+/,
+  setextHeading: /^#{1,2}\s[=-]+/,
+  codeBlockFenced: /^```/g,
+  codeBlockIndented: /^ {4}/,
+  strikethrough: /~~(.+?)~~/g,
+  autoLink: /<https?:\/\/[^>\s]+>/gi
+};
+
+// Constants for style guides
+const STYLE_GUIDES = {
+  commonmark: {
+    headingLevels: ['#', '##', '###'],
+    emphasis: {
+      underscore: '__text__',
+      asterisk: '**text**'
+    },
+    links: {
+      inline: '[text](url)',
+      reference: '[text][id]'
+    }
+  },
+  github: {
+    headingLevels: ['#', '##', '###'],
+    emphasis: {
+      underscore: '__text__',
+      asterisk: '**text**'
+    },
+    links: {
+      inline: '[text](url)',
+      reference: '[text][id]'
+    },
+    codeBlocks: {
+      fenced: '```',
+      indented: '    '

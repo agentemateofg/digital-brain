@@ -1,0 +1,56 @@
+# tool_name: read_file
+# created_at: 2026-03-13T14:27:14.463676
+# ---
+/Users/piter/.copaw/memory/2026-03-13.md  (lines 1-50 of 121)
+# Resumen - 13 de marzo de 2026
+
+- ✅ Skill-creator implementada
+- 🔧 Configuración tokens ajustada (reserve: 0.1, compact: 0.75)
+- 🌐 Herramientas web documentadas
+- 📰 Noticias Marca.com revisadas
+- ⚠️ Página españa.html inaccesible
+
+
+# 13 de marzo de 2026 - Implementación de skill-creator
+
+## 🛠️ Skill Creator Implementada
+
+He implementado la skill `skill-creator` para el entorno de Piter, siguiendo el patrón de las otras skills existentes (cron, docx, pdf, etc.).
+
+##  ✅ Lo que se ha hecho
+
+1. **Creado directorio**: `/Users/piter/.copaw/active_skills/skill-creator/`
+2. **Escrito SKILL.md completo** (293 líneas, 10KB) con:
+   - YAML frontmatter con name, description y emoji 🛠️
+   - Proceso de creación iterativo (capturar intención → entrevistar → escribir → evaluar)
+   - Estructura de skill recomendada (SKILL.md + recursos empaquetados)
+   - Carga progresiva (metadata → body → recursos)
+   - Principios de diseño (sorpresa cero, español, formatos definidos)
+   - Guía de escritura con ejemplos y patrones
+   - Organización por dominio para múltiples frameworks
+   - Evaluación iterativa con casos de prueba
+   - Recursos empaquetados (scripts/, references/, assets/)
+   - Checklist de creación
+   - Ejemplo completo de skill data-analyzer
+   - Integración con copaw
+
+3. **Actualizado AGENTS.md** con documentación de la nueva skill
+
+##  📋 Características principales
+
+- **Triggering específico**: Descripción "empujón" para evitar subactivación
+- **Idioma español**: Todo el contenido en español (idioma del entorno)
+- **Carga progresiva**: Tres niveles de contexto (metadata, body, recursos)
+- **Principio de sorpresa cero**: Sin malware ni contenido malicioso
+- **Formatos definidos**: Estructuras exactas para outputs verificables
+- **Ejemplos incluidos**: Patrones claros con casos de uso reales
+
+##  🎯 Flujo de trabajo recomendado
+
+1. Capturar intención del usuario
+2. Entrevistar sobre casos límite y formatos
+3. Escribir SKILL.md inicial
+4. Crear tests y ejecutar
+5. Evaluar feedback
+
+[71 more lines. Use start_line=51 to continue.]

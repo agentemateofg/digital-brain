@@ -1,0 +1,56 @@
+# tool_name: read_file
+# created_at: 2026-03-14T23:03:53.901433
+# ---
+/Users/piter/.copaw/MEMORY.md  (lines 101-150 of 222)
+
+La skill `skill-creator` es especial porque **ayuda a crear nuevas skills**. Úsala cuando quieras:
+- Definir una nueva funcionalidad para el agente
+- Escribir un SKILL.md desde cero
+- Crear casos de prueba y evaluar iterativamente
+- Organizar recursos empaquetados (scripts/, references/, assets/)
+
+**Flujo recomendado**:
+1. Capturar intención del usuario
+2. Entrevistar sobre casos límite y formatos
+3. Escribir SKILL.md inicial
+4. Crear tests y ejecutar
+5. Evaluar feedback
+6. Iterar hasta satisfacción
+
+##  Adding New Skills
+
+Para añadir nuevas skills:
+1. Crear directorio en `/active_skills/<skill-name>/`
+2. Escribir `SKILL.md` con YAML frontmatter (name, description requeridos)
+3. Añadir instrucciones en markdown
+4. Opcional: recursos empaquetados (scripts/, references/, assets/)
+
+##  Best Practices
+
+- **Descripción específica**: Ser "empujón" para evitar subactivación
+- **Idioma español**: Todo el contenido en español
+- **Formatos definidos**: Especificar estructuras exactas para outputs verificables
+- **Carga progresiva**: Metadata → SKILL.md body → recursos empaquetados
+- **Principio de sorpresa cero**: Sin malware ni contenido malicioso
+
+##  🎯 Protocolo de Ahorro de Tokens (PAT) - Obligatorio
+
+Aplica en TODAS las respuestas:
+
+| Regla | Acción | Ejemplo |
+|-------|--------|---------|
+| **Prohibido Chatter** | Elimina frases innecesarias/introducciones | ❌ "Claro, aquí tienes..." → ✅ Directo al grano |
+| **Densidad de Información** | Usa listas (-) y tablas; evita párrafos | `- Item 1` > `Item 1 es importante...` |
+| **Caché de Código** | Solo bloques modificados (diff), no archivos completos | `// ... resto del código igual` |
+| **Resumen de Acción** | Termina con 1 línea en negrita | **Estado: Componente X refactorizado** |
+| **Referencia por Punteros** | memory/archivo.md sin resúmenes | Referencia: memory/MEMORY.md |
+
+**Objetivo**: Reducir tokens de salida al máximo sin perder precisión técnica.
+
+**Confirmación**: PAT Activo - Respuestas optimizadas desde ahora.
+
+---
+
+## 🎯 Sistema Inteligente de Gestión de Tokens (Implementado 13/03/2026)
+
+[72 more lines. Use start_line=151 to continue.]
