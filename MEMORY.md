@@ -61,3 +61,5 @@
 
 **Última actualización**: 14 de marzo de 2026  
 **Tamaño optimizado**: ~2KB (reducido de ~8KB) ✅
+**Backup GitHub**: https://github.com/agentemateofg/digital-brain (commit diario a las 5:30 AM)
+**Cron Job**: `30 5 * * *` - Backup automático diario a las 5:30 AM
