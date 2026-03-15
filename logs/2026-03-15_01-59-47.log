@@ -258,3 +258,34 @@ BrokenPipeError: [Errno 32] Broken pipe
 2026-03-15 03:05:21 | INFO | full_file_watcher.py:70 | _on_changes | Upserted 6 chunks for /Users/piter/.copaw/memory/LIMPIEZA_SEMANAL.md
 2026-03-15 03:05:21 | INFO | full_file_watcher.py:79 | _on_changes | File 1 changed: /Users/piter/.copaw/memory/LIMPIEZA_SEMANAL.md
 2026-03-15 03:05:21 | INFO | base_file_watcher.py:212 | on_changes | [FullFileWatcher] on_changes: {(<Change.added: 1>, '/Users/piter/.copaw/memory/LIMPIEZA_SEMANAL.md')}
+2026-03-15 03:06:05 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000185s ==========
+2026-03-15 03:06:05 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.022698s ==========
+2026-03-15 03:06:18 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000311s ==========
+2026-03-15 03:06:18 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.030505s ==========
+2026-03-15 03:06:40 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000256s ==========
+2026-03-15 03:06:40 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.027349s ==========
+2026-03-15 03:06:57 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000088s ==========
+2026-03-15 03:06:57 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.029753s ==========
+2026-03-15 03:07:12 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000057s ==========
+2026-03-15 03:07:12 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.030078s ==========
+2026-03-15 03:07:21 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000219s ==========
+2026-03-15 03:07:21 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.034188s ==========
+2026-03-15 03:08:06 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000150s ==========
+2026-03-15 03:08:06 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.030466s ==========
+2026-03-15 03:08:22 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000057s ==========
+2026-03-15 03:08:22 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.032816s ==========
+2026-03-15 03:08:39 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.001583s ==========
+2026-03-15 03:08:39 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.029412s ==========
+2026-03-15 03:09:17 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000108s ==========
+2026-03-15 03:09:17 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.026971s ==========
+2026-03-15 03:09:36 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000077s ==========
+2026-03-15 03:09:36 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.023915s ==========
+2026-03-15 03:10:02 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000939s ==========
+2026-03-15 03:10:02 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.034483s ==========
+2026-03-15 03:14:52 | INFO | base_op.py:277 | ToolResultCompactor.call | ========== cost=0.000308s ==========
+2026-03-15 03:14:52 | INFO | base_op.py:277 | ContextChecker.call | ========== cost=0.034822s ==========
+2026-03-15 03:14:52 | INFO | chroma_file_store.py:623 | clear_all | Cleared all data from ChromaDB collection: chunks_copaw
+2026-03-15 03:14:52 | INFO | full_file_watcher.py:67 | _on_changes | delete_file /Users/piter/.copaw/memory/GUIDA-INSTALACION-LIMPIEZA.md
+2026-03-15 03:14:52 | INFO | full_file_watcher.py:70 | _on_changes | Upserted 6 chunks for /Users/piter/.copaw/memory/GUIDA-INSTALACION-LIMPIEZA.md
+2026-03-15 03:14:52 | INFO | full_file_watcher.py:79 | _on_changes | File 1 changed: /Users/piter/.copaw/memory/GUIDA-INSTALACION-LIMPIEZA.md
+2026-03-15 03:14:52 | INFO | base_file_watcher.py:212 | on_changes | [FullFileWatcher] on_changes: {(<Change.added: 1>, '/Users/piter/.copaw/memory/GUIDA-INSTALACION-LIMPIEZA.md')}
