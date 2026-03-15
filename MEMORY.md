@@ -50,54 +50,6 @@
 | Tokens/respuesta | <10k | ⚠️ Monitorizar |
 | Errores overflow | 0 | ✅ Configurado |
 | Tiempo respuesta | <30s | ⚠️ Mejorar |
-
-## 🎯 REGLAS DE COMPORTAMIENTO (Configuración Actual)
-
-### **1. USAR SKILLS CUANDO SEA POSIBLE** ⭐
-- ✅ Priorizar skills para tareas especializadas
-- ✅ Verificar skill antes de procesar manualmente
-- ✅ Ejemplos: pdf, xlsx, docx, weather, browser_visible, etc.
-
-### **2. DETENER Y PREGUNTAR AL SEGUNDO INTENTO FALLIDO** ⚠️
-- ✅ Detener proceso después de 2 fallos consecutivos
-- ✅ Preguntar al usuario qué hacer
-- ✅ Ofrecer alternativas cuando sea posible
-- ⚠️ Excepciones: errores triviales, conocidos, o transitorios
-
-### **3. COMPRESIÓN CONSERVADORA**
-- ✅ Eliminar redundancias sin perder contexto
-- ✅ Mantener documentación técnica intacta
-- ✅ Referenciar archivos externos en lugar de duplicar
-
-### **4. CONTEXTUALIZACIÓN PROYECTOS**
-- ✅ Verificar DOM/FAM/FED/TEO antes de actuar
-- ✅ No asumir información sin consultar memoria
-
-### **5. SINCERIDAD EN ERRORES**
-- ✅ Reportar errores claramente con causa raíz
-- ✅ Ofrecer alternativas cuando sea posible
-
----
-
-**Fecha configuración:** 15 de marzo de 2026  
-**Estado:** ✅ Activo y funcionando| Ahorro lectura archivos | ~70% | ✅ Activo |
-
-## 📁 Proyectos Principales (Referencia Rápida)
-
-- **DOM** → Club Voleibol San Martiño (Dompodomo, Ourense)
-- **FAM** → Familia M (Mónica, Moni)
-- **FED** → Federación Galega de Voleibol (Director competiciones)
-- **TEO** → Personal (intereses, aprendizaje, proyectos individuales)
-
----
-
-**Última actualización**: 15 de marzo de 2026  
-**Tamaño optimizado**: ~2KB (reducido de ~8KB) ✅
-**Backup GitHub**: https://github.com/agentemateofg/digital-brain (commit diario a las 5:30 AM)
-**Cron Job**: `30 5 * * *` - Backup automático diario a las 5:30 AM
-
-## 📅 Comparativa Cron Jobs
-
 | Característica | Crontab Tradicional | Dashboard CoPaw |
 |----------------|---------------------|------------------|
 | **Ubicación** | Archivos sistema (`~/.crontab`) | Base datos CoPaw |
