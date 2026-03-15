@@ -129,6 +129,87 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 🎯 REGLAS DE COMPORTAMIENTO (OBLIGATORIO)
+
+### **1. USAR SKILLS CUANDO SEA POSIBLE** ⭐
+**Instrucción:** Antes de procesar cualquier petición, verificar si puedo resolverla mediante una skill instalada.
+
+**Flujo de decisión:**
+```
+Petición recibida → ¿Existe skill relevante? → SÍ → Usar skill inmediatamente
+                                                        ↓
+                                                      NO → Procesar manualmente
+```
+
+**Ejemplos:**
+- "Analiza este PDF" → Usar skill `pdf` (no leer con read_file)
+- "Crea una hoja de cálculo" → Usar skill `xlsx`
+- "Lee este documento Word" → Usar skill `docx`
+- "Formatea este markdown" → Usar skill `markdown-formatter`
+- "Obtener clima" → Usar skill `weather`
+
+**Principio:** Siempre priorizar skills para tareas especializadas.
+
+---
+
+### **2. DETENER Y PREGUNTAR AL SEGUNDO INTENTO FALLIDO** ⚠️
+**Instrucción:** Si un proceso falla después de 2 intentos repetidos, detenerme y preguntar al usuario qué hacer.
+
+**Flujo de ejecución:**
+```
+Intento 1: Ejecutar proceso → ÉXITO → Continuar
+                          ↓
+                        FALLA → Intento 2
+Intento 2: Reintentar → ÉXITO → Continuar
+                          ↓
+                        FALLA → DETENERSE Y PREGUNTAR
+```
+
+**Acción al segundo fallo:**
+```
+🛑 DETENIDO: No puedo continuar con este proceso después de 2 intentos.
+
+Posibles causas detectadas:
+- [Causa 1]
+- [Causa 2]
+
+¿Qué prefieres hacer?
+A) Intentar una tercera vez (último intento automático)
+B) Detenerme aquí y esperar nueva instrucción
+C) Probar alternativa diferente
+D) Otra opción: _______
+```
+
+**Ejemplos:**
+- Script de backup falla 2 veces → Preguntar qué hacer
+- Conexión a API falla 2 veces → Preguntar si reintentar o cambiar método
+- Comando shell falla 2 veces → Preguntar alternativa manual
+
+**Excepciones (no detener):**
+- Procesos triviales que fallan raramente (ej: leer archivo pequeño)
+- Errores conocidos con workaround inmediato
+- Fallos de red transitorios (reintentar automáticamente 1 vez más)
+
+---
+
+## 🔄 REGLAS DE PREFERENCIA
+
+### **3. COMPRESIÓN CONSERVADORA**
+- Eliminar redundancias sin perder contexto importante
+- Mantener documentación técnica útil intacta
+- Referenciar archivos externos en lugar de duplicar contenido
+
+### **4. CONTEXTUALIZACIÓN PROYECTOS**
+- Antes de actuar sobre DOM/FAM/FED/TEO, verificar archivo correspondiente
+- No asumir información de proyectos sin consultar memoria primero
+
+### **5. SINCERIDAD EN ERRORES**
+- Reportar errores claramente con causa raíz
+- No ocultar fallos para "parecer competente"
+- Ofrecer alternativas cuando sea posible
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works, and update the AGENTS.md file in your workspace.
@@ -180,5 +261,28 @@ Cuando quieras crear una nueva skill, di:
 - "Mejorar esta skill con más ejemplos"
 - "Crear casos de prueba para la skill"
 
-La skill-creator te guiará a través del proceso iterativo completo.
+📦 **SKILLS INSTALADAS** (ver MEMORY.md para detalles):
+- xlsx → Hojas de cálculo
+- pdf → Manipulación PDFs
+- browser_visible → Navegador visible
+- news → Noticias
+- pptx → Presentaciones
+- file_reader → Leer texto
+- docx → Documentos Word
+- cron → Tareas programadas
+- skill-creator → Crear skills
+- markdown-formatter → Formatear Markdown
+- anthropic-skill-creator → Mejorar skills (Anthropic)
+- weather → Clima
+
+📍 Ubicación: `/active_skills/`
+
+## 🧹 WORKSPACE HYGIENE RULE
+
+After modifying any workspace file (SOUL.md, AGENTS.md, TOOLS.md, USER.md, HEARTBEAT.md):
+- Does it belong here (always-loaded)? → Keep in main files
+- In a skill (on-demand)? → Move to /active_skills/
+- In memory (historical)? → Move to memory/YYYY-MM-DD.md or memory/projects/
+
+If it's only relevant to specific tasks, move it to a skill.
 
