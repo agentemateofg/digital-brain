@@ -36,10 +36,10 @@
 ```json
 {
   "max_input_length": 32768,
-  "memory_reserve_ratio": 0.05,
-  "memory_compact_ratio": 0.6,
+  "memory_reserve_ratio": 0.12,
+  "memory_compact_ratio": 0.55,
   "enable_tool_result_compact": true,
-  "telegram_filter_thinking": true
+  "telegram_filter_thinking": false
 }
 ```
 
